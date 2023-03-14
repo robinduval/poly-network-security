@@ -10,12 +10,13 @@ def receive_file(file_path, ip, port):
 
     # Accept incoming connections and receive file data
     client_socket, address = server_socket.accept()
+    print(address, "has connected and send file")
     with open(file_path, 'wb') as file:
         while True:
             data = client_socket.recv(1024)
             if not data:
                 break
-            file.write(data+data)
+            file.write(data)
 
     # Close the client socket and server socket
     client_socket.close()
