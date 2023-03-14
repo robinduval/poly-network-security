@@ -1,9 +1,20 @@
+#!/usr/bin/env python3
+
+
 import socket
 import subprocess
 
-# Chemin d'accès aux fichiers du serveur et du client PROUT
+# Chemin d'accès aux fichiers du serveur et du client
+# SERVER : Parrot   : 10.0.0.27
+# CLIENT : RUNBUNTU : 10.0.0.26
+
 SERVER_DIR = "server_files/"
 CLIENT_DIR = "client_files/"
+
+SERVER_IP = "10.0.0.27"
+CLIENT_IP = "10.0.0.26"
+
+PORT = 8080
 
 # Crée une socket pour le serveur et écoute les connexions entrantes
 server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
