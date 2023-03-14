@@ -1,0 +1,922 @@
+03/01-10:34:39.773076  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 10.0.0.20:54503 -> 239.255.255.250:1900
+03/01-10:34:39.773111  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 10.0.0.20:54505 -> 239.255.255.250:1900
+03/01-10:34:40.773992  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 10.0.0.20:54505 -> 239.255.255.250:1900
+03/01-10:34:40.778022  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 10.0.0.20:54503 -> 239.255.255.250:1900
+03/01-10:34:41.774792  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 10.0.0.20:54505 -> 239.255.255.250:1900
+03/01-10:34:41.776069  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 10.0.0.20:54503 -> 239.255.255.250:1900
+03/01-10:34:42.776870  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 10.0.0.20:54505 -> 239.255.255.250:1900
+03/01-10:34:42.776873  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 10.0.0.20:54503 -> 239.255.255.250:1900
+03/01-10:36:39.844185  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 10.0.0.20:65496 -> 239.255.255.250:1900
+03/01-10:36:39.844198  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 10.0.0.20:65495 -> 239.255.255.250:1900
+03/01-10:36:40.846779  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 10.0.0.20:65495 -> 239.255.255.250:1900
+03/01-10:36:40.846782  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 10.0.0.20:65496 -> 239.255.255.250:1900
+03/01-10:36:41.848011  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 10.0.0.20:65496 -> 239.255.255.250:1900
+03/01-10:36:41.848021  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 10.0.0.20:65495 -> 239.255.255.250:1900
+03/01-10:36:42.848867  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 10.0.0.20:65496 -> 239.255.255.250:1900
+03/01-10:36:42.848870  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 10.0.0.20:65495 -> 239.255.255.250:1900
+03/01-10:38:39.907207  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 10.0.0.20:61370 -> 239.255.255.250:1900
+03/01-10:38:39.907217  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 10.0.0.20:61371 -> 239.255.255.250:1900
+03/01-10:38:40.907185  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 10.0.0.20:61371 -> 239.255.255.250:1900
+03/01-10:38:40.910530  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 10.0.0.20:61370 -> 239.255.255.250:1900
+03/01-10:38:41.909308  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 10.0.0.20:61371 -> 239.255.255.250:1900
+03/01-10:38:41.909319  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 10.0.0.20:61370 -> 239.255.255.250:1900
+03/01-10:38:42.909419  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 10.0.0.20:61370 -> 239.255.255.250:1900
+03/01-10:38:42.911441  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 10.0.0.20:61371 -> 239.255.255.250:1900
+03/01-10:40:39.953992  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 10.0.0.20:61767 -> 239.255.255.250:1900
+03/01-10:40:39.953996  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 10.0.0.20:61765 -> 239.255.255.250:1900
+03/01-10:40:40.956197  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 10.0.0.20:61767 -> 239.255.255.250:1900
+03/01-10:40:40.956201  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 10.0.0.20:61765 -> 239.255.255.250:1900
+03/01-10:40:41.956021  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 10.0.0.20:61767 -> 239.255.255.250:1900
+03/01-10:40:41.959933  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 10.0.0.20:61765 -> 239.255.255.250:1900
+03/01-10:40:42.957973  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 10.0.0.20:61767 -> 239.255.255.250:1900
+03/01-10:40:42.959670  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 10.0.0.20:61765 -> 239.255.255.250:1900
+03/01-10:41:11.659091  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 10.0.0.20:1900 -> 239.255.255.250:1900
+03/01-10:41:11.872032  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} fe80::5f6a:2b1f:eb25:4c29:1900 -> ff02::c:1900
+03/01-10:41:12.318493  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 10.0.0.20:1900 -> 239.255.255.250:1900
+03/01-10:41:13.087356  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} fe80::5f6a:2b1f:eb25:4c29:1900 -> ff02::c:1900
+03/01-10:41:13.552728  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 10.0.0.20:1900 -> 239.255.255.250:1900
+03/01-10:41:13.652224  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 10.0.0.20:1900 -> 239.255.255.250:1900
+03/01-10:41:13.714255  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} fe80::5f6a:2b1f:eb25:4c29:1900 -> ff02::c:1900
+03/01-10:41:13.715342  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} fe80::5f6a:2b1f:eb25:4c29:1900 -> ff02::c:1900
+03/01-10:41:13.874659  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 10.0.0.20:1900 -> 239.255.255.250:1900
+03/01-10:41:13.908458  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} fe80::5f6a:2b1f:eb25:4c29:1900 -> ff02::c:1900
+03/01-10:41:14.149465  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 10.0.0.20:1900 -> 239.255.255.250:1900
+03/01-10:41:14.663900  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 10.0.0.20:1900 -> 239.255.255.250:1900
+03/01-10:41:14.729963  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} fe80::5f6a:2b1f:eb25:4c29:1900 -> ff02::c:1900
+03/01-10:41:14.729966  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} fe80::5f6a:2b1f:eb25:4c29:1900 -> ff02::c:1900
+03/01-10:41:15.319401  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 10.0.0.20:1900 -> 239.255.255.250:1900
+03/01-10:41:15.545399  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} fe80::5f6a:2b1f:eb25:4c29:1900 -> ff02::c:1900
+03/01-10:41:16.559005  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 10.0.0.20:1900 -> 239.255.255.250:1900
+03/01-10:41:16.655109  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 10.0.0.20:1900 -> 239.255.255.250:1900
+03/01-10:41:16.878489  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 10.0.0.20:1900 -> 239.255.255.250:1900
+03/01-10:41:17.153125  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 10.0.0.20:1900 -> 239.255.255.250:1900
+03/01-10:41:17.185003  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} fe80::5f6a:2b1f:eb25:4c29:1900 -> ff02::c:1900
+03/01-10:41:17.187593  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} fe80::5f6a:2b1f:eb25:4c29:1900 -> ff02::c:1900
+03/01-10:41:17.187597  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} fe80::5f6a:2b1f:eb25:4c29:1900 -> ff02::c:1900
+03/01-10:41:17.190945  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} fe80::5f6a:2b1f:eb25:4c29:1900 -> ff02::c:1900
+03/01-10:41:17.665152  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 10.0.0.20:1900 -> 239.255.255.250:1900
+03/01-10:41:18.004898  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} fe80::5f6a:2b1f:eb25:4c29:1900 -> ff02::c:1900
+03/01-10:41:18.321895  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 10.0.0.20:1900 -> 239.255.255.250:1900
+03/01-10:41:18.824785  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} fe80::5f6a:2b1f:eb25:4c29:1900 -> ff02::c:1900
+03/01-10:41:19.558544  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 10.0.0.20:1900 -> 239.255.255.250:1900
+03/01-10:41:19.647363  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} fe80::5f6a:2b1f:eb25:4c29:1900 -> ff02::c:1900
+03/01-10:41:19.657804  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 10.0.0.20:1900 -> 239.255.255.250:1900
+03/01-10:41:19.660142  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} fe80::5f6a:2b1f:eb25:4c29:1900 -> ff02::c:1900
+03/01-10:41:19.881965  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 10.0.0.20:1900 -> 239.255.255.250:1900
+03/01-10:41:20.154254  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 10.0.0.20:1900 -> 239.255.255.250:1900
+03/01-10:41:20.463448  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} fe80::5f6a:2b1f:eb25:4c29:1900 -> ff02::c:1900
+03/01-10:41:20.465192  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} fe80::5f6a:2b1f:eb25:4c29:1900 -> ff02::c:1900
+03/01-10:42:40.022098  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 10.0.0.20:49222 -> 239.255.255.250:1900
+03/01-10:42:40.035163  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 10.0.0.20:49224 -> 239.255.255.250:1900
+03/01-10:42:41.024093  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 10.0.0.20:49222 -> 239.255.255.250:1900
+03/01-10:42:41.036846  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 10.0.0.20:49224 -> 239.255.255.250:1900
+03/01-10:42:42.024686  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 10.0.0.20:49222 -> 239.255.255.250:1900
+03/01-10:42:42.038302  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 10.0.0.20:49224 -> 239.255.255.250:1900
+03/01-10:42:43.026914  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 10.0.0.20:49222 -> 239.255.255.250:1900
+03/01-10:42:43.038514  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 10.0.0.20:49224 -> 239.255.255.250:1900
+03/01-10:44:40.088831  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 10.0.0.20:58391 -> 239.255.255.250:1900
+03/01-10:44:40.088843  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 10.0.0.20:58392 -> 239.255.255.250:1900
+03/01-10:44:41.088073  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 10.0.0.20:58391 -> 239.255.255.250:1900
+03/01-10:44:41.088082  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 10.0.0.20:58392 -> 239.255.255.250:1900
+03/01-10:44:42.089559  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 10.0.0.20:58392 -> 239.255.255.250:1900
+03/01-10:44:42.089563  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 10.0.0.20:58391 -> 239.255.255.250:1900
+03/01-10:44:43.090343  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 10.0.0.20:58392 -> 239.255.255.250:1900
+03/01-10:44:43.090347  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 10.0.0.20:58391 -> 239.255.255.250:1900
+03/01-10:46:40.148868  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 10.0.0.20:49307 -> 239.255.255.250:1900
+03/01-10:46:40.148879  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 10.0.0.20:49309 -> 239.255.255.250:1900
+03/01-10:46:41.151881  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 10.0.0.20:49307 -> 239.255.255.250:1900
+03/01-10:46:41.151893  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 10.0.0.20:49309 -> 239.255.255.250:1900
+03/01-10:46:42.151410  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 10.0.0.20:49307 -> 239.255.255.250:1900
+03/01-10:46:42.151419  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 10.0.0.20:49309 -> 239.255.255.250:1900
+03/01-10:46:43.153357  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 10.0.0.20:49307 -> 239.255.255.250:1900
+03/01-10:46:43.153369  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 10.0.0.20:49309 -> 239.255.255.250:1900
+03/01-11:04:39.560679  [**] [1:100001:1] Help Help I'm Being Ping'ed [**] [Priority: 0] {ICMP} 10.0.0.20 -> 10.0.0.17
+03/01-11:04:40.564911  [**] [1:100001:1] Help Help I'm Being Ping'ed [**] [Priority: 0] {ICMP} 10.0.0.20 -> 10.0.0.17
+03/01-11:04:41.569948  [**] [1:100001:1] Help Help I'm Being Ping'ed [**] [Priority: 0] {ICMP} 10.0.0.20 -> 10.0.0.17
+03/01-11:04:42.576405  [**] [1:100001:1] Help Help I'm Being Ping'ed [**] [Priority: 0] {ICMP} 10.0.0.20 -> 10.0.0.17
+03/01-11:06:17.837230  [**] [1:100001:1] Help Help I'm Being Ping'ed [**] [Priority: 0] {ICMP} 10.0.0.20 -> 10.0.0.7
+03/01-11:06:18.851956  [**] [1:100001:1] Help Help I'm Being Ping'ed [**] [Priority: 0] {ICMP} 10.0.0.20 -> 10.0.0.7
+03/01-11:06:19.870609  [**] [1:100001:1] Help Help I'm Being Ping'ed [**] [Priority: 0] {ICMP} 10.0.0.20 -> 10.0.0.7
+03/01-11:06:20.883419  [**] [1:100001:1] Help Help I'm Being Ping'ed [**] [Priority: 0] {ICMP} 10.0.0.20 -> 10.0.0.7
+03/01-11:06:28.776082  [**] [1:100001:1] Help Help I'm Being Ping'ed [**] [Priority: 0] {ICMP} 10.0.0.20 -> 10.0.0.21
+03/01-11:06:29.780171  [**] [1:100001:1] Help Help I'm Being Ping'ed [**] [Priority: 0] {ICMP} 10.0.0.20 -> 10.0.0.21
+03/01-11:06:30.783756  [**] [1:100001:1] Help Help I'm Being Ping'ed [**] [Priority: 0] {ICMP} 10.0.0.20 -> 10.0.0.21
+03/01-11:06:31.791433  [**] [1:100001:1] Help Help I'm Being Ping'ed [**] [Priority: 0] {ICMP} 10.0.0.20 -> 10.0.0.21
+03/01-11:06:41.390309  [**] [1:100001:1] Help Help I'm Being Ping'ed [**] [Priority: 0] {ICMP} 10.0.0.20 -> 10.0.0.17
+03/01-11:06:42.395505  [**] [1:100001:1] Help Help I'm Being Ping'ed [**] [Priority: 0] {ICMP} 10.0.0.20 -> 10.0.0.17
+03/01-11:06:43.407219  [**] [1:100001:1] Help Help I'm Being Ping'ed [**] [Priority: 0] {ICMP} 10.0.0.20 -> 10.0.0.17
+03/01-11:06:44.418088  [**] [1:100001:1] Help Help I'm Being Ping'ed [**] [Priority: 0] {ICMP} 10.0.0.20 -> 10.0.0.17
+03/01-11:07:02.952565  [**] [1:100001:1] Help Help I'm Being Ping'ed [**] [Priority: 0] {ICMP} 10.0.0.21 -> 10.0.0.20
+03/01-11:07:03.960019  [**] [1:100001:1] Help Help I'm Being Ping'ed [**] [Priority: 0] {ICMP} 10.0.0.21 -> 10.0.0.20
+03/01-11:23:37.033740  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 10.0.0.1:80 -> 10.0.0.20:53813
+03/01-11:23:39.610327  [**] [1:100001:1] Ping Detected [**] [Priority: 0] {ICMP} 10.0.0.20 -> 10.0.0.17
+03/01-11:23:40.604305  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 88.221.198.16:443 -> 10.0.0.20:53777
+03/01-11:23:40.608632  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 88.221.198.16:443 -> 10.0.0.20:53777
+03/01-11:23:40.608634  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 88.221.198.16:443 -> 10.0.0.20:53777
+03/01-11:23:40.613932  [**] [1:100001:1] Ping Detected [**] [Priority: 0] {ICMP} 10.0.0.20 -> 10.0.0.17
+03/01-11:23:41.064707  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 88.221.198.20:443 -> 10.0.0.20:53779
+03/01-11:23:41.064708  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 88.221.198.20:443 -> 10.0.0.20:53779
+03/01-11:23:41.064971  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 88.221.198.20:443 -> 10.0.0.20:53779
+03/01-11:23:41.620104  [**] [1:100001:1] Ping Detected [**] [Priority: 0] {ICMP} 10.0.0.20 -> 10.0.0.17
+03/01-11:23:42.634977  [**] [1:100001:1] Ping Detected [**] [Priority: 0] {ICMP} 10.0.0.20 -> 10.0.0.17
+03/01-11:23:43.882656  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 23.55.48.172:443 -> 10.0.0.20:53774
+03/01-11:23:43.887408  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 23.55.48.172:443 -> 10.0.0.20:53774
+03/01-11:23:43.888734  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 23.55.48.172:443 -> 10.0.0.20:53774
+03/01-11:25:22.899547  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 13.36.217.179:443 -> 10.0.0.20:53826
+03/01-11:25:22.899799  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 13.36.217.179:443 -> 10.0.0.20:53826
+03/01-11:26:21.292881  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 10.0.0.20:53832 -> 95.100.95.168:443
+03/01-11:24:22.993013  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 10.0.0.20:53827 -> 92.123.236.185:443
+03/01-11:26:23.942048  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 92.123.236.185:443 -> 10.0.0.20:53827
+03/01-11:26:23.942048  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 92.123.236.185:443 -> 10.0.0.20:53827
+03/01-11:26:30.970189  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 151.101.122.2:443 -> 10.0.0.20:53392
+03/01-11:26:30.970189  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 151.101.122.2:443 -> 10.0.0.20:53392
+03/01-11:26:30.972006  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 151.101.122.2:443 -> 10.0.0.20:53392
+03/01-11:24:40.434830  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 88.221.198.15:443 -> 10.0.0.20:53829
+03/01-11:26:40.828970  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 88.221.198.15:443 -> 10.0.0.20:53829
+03/01-11:26:40.828970  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 88.221.198.15:443 -> 10.0.0.20:53829
+03/01-11:27:18.246985  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 10.0.0.20:53850 -> 207.182.182.25:443
+03/01-11:27:17.890306  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 207.182.182.25:443 -> 10.0.0.20:53850
+03/01-11:27:18.246986  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 10.0.0.20:53850 -> 207.182.182.25:443
+03/01-11:27:19.237983  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 10.0.0.20:53851 -> 207.182.182.25:443
+03/01-11:27:19.083066  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 207.182.182.25:443 -> 10.0.0.20:53851
+03/01-11:27:19.237985  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 10.0.0.20:53851 -> 207.182.182.25:443
+03/01-11:27:34.358695  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 151.101.121.208:443 -> 10.0.0.20:53453
+03/01-11:27:34.363093  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 151.101.121.208:443 -> 10.0.0.20:53453
+03/01-11:27:34.364126  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 151.101.121.208:443 -> 10.0.0.20:53453
+03/01-11:27:41.256335  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 10.0.0.20:53776 -> 192.229.133.15:443
+03/01-11:24:40.454599  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 192.229.133.15:443 -> 10.0.0.20:53776
+03/01-11:27:41.256336  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 10.0.0.20:53776 -> 192.229.133.15:443
+03/01-11:28:19.433025  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 170.72.230.112:443 -> 10.0.0.20:53852
+03/01-11:28:19.433027  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 170.72.230.112:443 -> 10.0.0.20:53852
+03/01-11:28:19.434612  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 170.72.230.112:443 -> 10.0.0.20:53852
+03/01-11:29:55.470471  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 13.36.217.179:443 -> 10.0.0.20:53856
+03/01-11:29:55.470471  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 13.36.217.179:443 -> 10.0.0.20:53856
+03/01-11:30:13.061821  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 10.0.0.20:53955 -> 207.182.182.25:443
+03/01-11:30:12.706634  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 207.182.182.25:443 -> 10.0.0.20:53955
+03/01-11:30:13.061821  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 10.0.0.20:53955 -> 207.182.182.25:443
+03/01-11:28:55.538236  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 92.123.236.235:443 -> 10.0.0.20:53857
+03/01-11:30:55.987770  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 92.123.236.235:443 -> 10.0.0.20:53857
+03/01-11:30:55.987773  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 92.123.236.235:443 -> 10.0.0.20:53857
+03/01-14:46:18.481216  [**] [1:100003:1] TCP RST Detected [**] [Priority: 0] {TCP} 15.236.96.63:443 -> 10.0.0.20:55206
+03/01-14:46:18.481217  [**] [1:100003:1] TCP RST Detected [**] [Priority: 0] {TCP} 15.236.96.63:443 -> 10.0.0.20:55206
+03/01-14:45:18.422031  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 15.236.96.63:443 -> 10.0.0.20:55206
+03/01-14:46:18.481216  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 15.236.96.63:443 -> 10.0.0.20:55206
+03/01-14:46:18.481217  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 15.236.96.63:443 -> 10.0.0.20:55206
+03/01-14:47:18.555511  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 96.16.248.136:443 -> 10.0.0.20:55204
+03/01-14:47:18.555511  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 96.16.248.136:443 -> 10.0.0.20:55204
+03/01-14:48:02.697636  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 10.0.0.20:55402 -> 157.240.21.35:443
+03/01-14:49:07.728725  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 157.240.21.35:443 -> 10.0.0.20:55402
+03/01-14:49:07.728725  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 157.240.21.35:443 -> 10.0.0.20:55402
+03/01-14:49:05.695535  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 157.240.21.16:443 -> 10.0.0.20:55485
+03/01-14:49:05.692606  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 10.0.0.20:55485 -> 157.240.21.16:443
+03/01-14:49:11.558587  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 10.0.0.20:55485 -> 157.240.21.16:443
+03/01-14:49:03.493285  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 157.240.21.16:443 -> 10.0.0.20:55481
+03/01-14:49:03.489582  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 10.0.0.20:55481 -> 157.240.21.16:443
+03/01-14:49:11.558682  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 10.0.0.20:55481 -> 157.240.21.16:443
+03/01-14:49:11.558846  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 10.0.0.20:55477 -> 157.240.21.2:443
+03/01-14:49:03.199616  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 157.240.21.2:443 -> 10.0.0.20:55477
+03/01-14:49:11.558846  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 10.0.0.20:55477 -> 157.240.21.2:443
+03/01-14:49:13.053724  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 10.0.0.20:55493 -> 207.182.182.25:443
+03/01-14:49:12.695965  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 207.182.182.25:443 -> 10.0.0.20:55493
+03/01-14:49:13.053724  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 10.0.0.20:55493 -> 207.182.182.25:443
+03/01-14:49:13.440178  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 170.72.230.112:443 -> 10.0.0.20:55495
+03/01-14:50:13.821368  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 170.72.230.112:443 -> 10.0.0.20:55495
+03/01-14:50:13.821369  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 170.72.230.112:443 -> 10.0.0.20:55495
+03/01-14:49:52.532264  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 96.17.206.202:443 -> 10.0.0.20:55541
+03/01-14:50:13.855660  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 96.17.206.202:443 -> 10.0.0.20:55541
+03/01-14:50:13.855781  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 96.17.206.202:443 -> 10.0.0.20:55541
+03/01-14:50:36.444630  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 10.0.0.20:55605 -> 192.0.77.37:443
+03/01-14:50:36.458131  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 10.0.0.20:55605 -> 192.0.77.37:443
+03/01-14:50:36.571394  [**] [1:1000002:2] TCP Port Scan Detected [**] [Priority: 0] {TCP} 10.0.0.20:55609 -> 142.250.75.234:443
+03/01-14:50:36.931015  [**] [1:1000002:2] TCP Port Scan Detected [**] [Priority: 0] {TCP} 10.0.0.20:55610 -> 104.18.139.9:443
+03/01-14:50:36.937914  [**] [1:1000002:2] TCP Port Scan Detected [**] [Priority: 0] {TCP} 10.0.0.20:55611 -> 104.18.139.9:443
+03/01-14:50:37.184433  [**] [1:1000002:2] TCP Port Scan Detected [**] [Priority: 0] {TCP} 10.0.0.20:55612 -> 151.101.120.176:443
+03/01-14:50:37.498214  [**] [1:1000002:2] TCP Port Scan Detected [**] [Priority: 0] {TCP} 10.0.0.20:55613 -> 151.101.120.176:443
+03/01-14:50:38.207365  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 10.0.0.20:55614 -> 142.250.201.163:443
+03/01-14:50:42.503199  [**] [1:1000002:2] TCP Port Scan Detected [**] [Priority: 0] {TCP} 10.0.0.20:55636 -> 162.159.134.42:443
+03/01-14:50:42.591954  [**] [1:1000002:2] TCP Port Scan Detected [**] [Priority: 0] {TCP} 10.0.0.20:55637 -> 10.0.0.1:80
+03/01-14:50:42.592739  [**] [1:1000002:2] TCP Port Scan Detected [**] [Priority: 0] {TCP} 10.0.0.20:55638 -> 10.0.0.1:80
+03/01-14:50:43.061419  [**] [1:1000002:2] TCP Port Scan Detected [**] [Priority: 0] {TCP} 10.0.0.20:55639 -> 192.0.77.2:443
+03/01-14:50:43.061589  [**] [1:1000002:2] TCP Port Scan Detected [**] [Priority: 0] {TCP} 10.0.0.20:55640 -> 192.0.77.2:443
+03/01-14:50:43.094158  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 10.0.0.20:55640 -> 192.0.77.2:443
+03/01-14:50:43.094208  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 10.0.0.20:55640 -> 192.0.77.2:443
+03/01-14:50:43.094209  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 10.0.0.20:55640 -> 192.0.77.2:443
+03/01-14:50:43.421895  [**] [1:1000002:2] TCP Port Scan Detected [**] [Priority: 0] {TCP} 10.0.0.20:55641 -> 151.101.36.159:443
+03/01-14:50:43.441955  [**] [1:1000002:2] TCP Port Scan Detected [**] [Priority: 0] {TCP} 10.0.0.20:55642 -> 151.101.36.159:443
+03/01-14:50:43.467126  [**] [1:1000002:2] TCP Port Scan Detected [**] [Priority: 0] {TCP} 10.0.0.20:55643 -> 151.101.36.159:443
+03/01-14:50:43.478747  [**] [1:1000002:2] TCP Port Scan Detected [**] [Priority: 0] {TCP} 10.0.0.20:55644 -> 151.101.36.159:443
+03/01-14:50:43.742723  [**] [1:1000002:2] TCP Port Scan Detected [**] [Priority: 0] {TCP} 10.0.0.20:55645 -> 18.155.129.102:443
+03/01-14:50:43.748593  [**] [1:1000002:2] TCP Port Scan Detected [**] [Priority: 0] {TCP} 10.0.0.20:55646 -> 18.155.129.102:443
+03/01-14:50:43.829777  [**] [1:1000002:2] TCP Port Scan Detected [**] [Priority: 0] {TCP} 10.0.0.20:55647 -> 142.250.75.234:443
+03/01-14:50:43.850468  [**] [1:1000002:2] TCP Port Scan Detected [**] [Priority: 0] {TCP} 10.0.0.20:55648 -> 142.250.201.163:443
+03/01-14:50:52.477625  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 13.36.217.179:443 -> 10.0.0.20:55540
+03/01-14:50:52.477626  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 13.36.217.179:443 -> 10.0.0.20:55540
+03/01-14:51:42.298043  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 10.0.0.20:55628 -> 69.16.175.42:443
+03/01-14:51:54.629976  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 10.0.0.20:55603 -> 192.0.77.37:443
+03/01-14:51:54.632974  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 10.0.0.20:55603 -> 192.0.77.37:443
+03/01-14:51:55.111834  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 192.0.77.32:443 -> 10.0.0.20:55617
+03/01-14:52:08.189583  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 96.16.248.159:443 -> 10.0.0.20:55563
+03/01-14:52:08.189584  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 96.16.248.159:443 -> 10.0.0.20:55563
+03/01-14:52:08.189584  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 96.16.248.159:443 -> 10.0.0.20:55563
+03/01-14:52:25.117283  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 192.0.77.2:443 -> 10.0.0.20:55639
+03/01-14:53:24.762508  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:24.811628  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:24.881788  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:24.940693  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:24.987380  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:25.035024  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:25.069946  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:25.118881  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:25.170424  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:24.762508  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:24.811628  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:24.881788  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:24.940693  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:24.987380  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:25.035024  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:25.069946  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:25.118881  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:25.170424  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:25.237247  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:25.306979  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:25.343458  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:25.383554  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:25.430215  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:25.463290  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:25.499833  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:25.533347  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:25.566935  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:25.617848  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:25.237247  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:25.306979  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:25.343458  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:25.383554  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:25.430215  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:25.463290  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:25.499833  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:25.533347  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:25.566935  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:25.617848  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:25.674140  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:25.724111  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:25.784353  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:25.840469  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:25.876901  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:25.919569  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:25.952744  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:25.996616  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:26.029512  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:26.063853  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:26.109650  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:26.139297  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:26.172844  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:25.674140  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:25.724111  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:25.784353  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:25.840469  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:25.876901  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:25.919569  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:25.952744  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:25.996616  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:26.029512  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:26.063853  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:26.109650  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:26.139297  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:26.172844  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:26.203247  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:26.238083  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:26.283361  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:26.346732  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:26.396547  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:26.436845  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:26.473462  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:26.513276  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:26.554329  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:26.587548  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:26.617934  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:26.203247  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:26.238083  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:26.283361  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:26.346732  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:26.396547  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:26.436845  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:26.473462  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:26.513276  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:26.554329  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:26.587548  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:26.617934  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:26.687083  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:26.723516  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:26.760613  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:26.793719  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:26.837495  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:26.901479  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:26.970016  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:27.029568  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:27.082837  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:27.136228  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:27.171690  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:26.687083  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:26.723516  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:26.760613  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:26.793719  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:26.837495  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:26.901479  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:26.970016  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:27.029568  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:27.082837  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:27.136228  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:27.171690  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:27.227257  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:27.260515  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:27.327726  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:27.374464  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:27.403826  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:27.463515  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:27.513460  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:27.563337  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:27.600181  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:27.629478  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:27.227257  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:27.260515  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:27.327726  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:27.374464  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:27.403826  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:27.463515  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:27.513460  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:27.563337  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:27.600181  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:27.629478  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:27.678040  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:27.723431  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:27.760943  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:27.815514  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:27.860747  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:27.889493  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:27.946266  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:28.014587  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:28.077700  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:28.123551  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:28.183171  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:28.223306  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:27.678040  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:27.723431  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:27.760943  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:27.815514  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:27.860747  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:27.889493  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:27.946266  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:28.014587  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:28.077700  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:28.123551  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:28.183171  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:28.223306  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:28.267085  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:28.317725  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:28.370719  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:28.411634  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:28.453867  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:28.488886  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:28.546157  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:28.582507  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:28.618282  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:28.661784  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:28.267085  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:28.317725  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:28.370719  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:28.411634  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:28.453867  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:28.488886  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:28.546157  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:28.582507  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:28.618282  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:28.661784  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:28.740142  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:28.788557  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:28.865666  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:28.921238  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:28.970792  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:29.005501  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:29.076397  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:29.118489  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:29.181137  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:28.740142  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:28.788557  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:28.865666  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:28.921238  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:28.970792  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:29.005501  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:29.076397  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:29.118489  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:29.181137  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:29.248267  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:29.303941  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:29.349107  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:29.407011  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:29.463673  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:29.503194  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:29.560331  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:29.593617  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:29.631371  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:29.248267  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:29.303941  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:29.349107  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:29.407011  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:29.463673  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:29.503194  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:29.560331  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:29.593617  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:29.631371  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:29.705769  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:29.797638  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:29.851104  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:29.924553  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:29.957459  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:29.990274  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:30.030196  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:30.085127  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:30.149296  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:30.198902  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:29.705769  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:29.797638  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:29.851104  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:29.924553  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:29.957459  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:29.990274  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:30.030196  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:30.085127  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:30.149296  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:30.198902  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:30.267897  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:30.314437  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:30.380523  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:30.418936  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:30.471133  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:30.499514  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:30.533168  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:30.568715  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:30.610168  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:30.651093  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:30.696832  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:30.267897  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:30.314437  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:30.380523  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:30.418936  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:30.471133  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:30.499514  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:30.533168  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:30.568715  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:30.610168  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:30.651093  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:30.696832  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:30.737466  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:30.786554  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:30.829971  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:30.884762  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:30.926849  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:30.971220  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:31.023955  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:31.079918  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:31.123794  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:31.161462  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:31.196138  [**] [1:100003:1] TCP RST Detected [**] [Priority: 0] {TCP} 10.0.0.20:55856 -> 207.182.182.25:443
+03/01-14:53:30.839534  [**] [1:100003:1] TCP RST Detected [**] [Priority: 0] {TCP} 207.182.182.25:443 -> 10.0.0.20:55856
+03/01-14:53:31.196178  [**] [1:100003:1] TCP RST Detected [**] [Priority: 0] {TCP} 10.0.0.20:55856 -> 207.182.182.25:443
+03/01-14:53:31.198041  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:31.244362  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:30.737466  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:30.786554  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:30.829971  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:30.884762  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:30.926849  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:30.971220  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:31.023955  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:31.079918  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:31.123794  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:31.161462  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:31.196138  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 10.0.0.20:55856 -> 207.182.182.25:443
+03/01-14:53:30.839534  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 207.182.182.25:443 -> 10.0.0.20:55856
+03/01-14:53:31.196178  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 10.0.0.20:55856 -> 207.182.182.25:443
+03/01-14:53:31.198041  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:31.244362  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:31.277425  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:31.316310  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:31.356733  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:31.396454  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:31.450051  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:31.501905  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:31.546482  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:31.593295  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:31.632356  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:31.689232  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:31.277425  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:31.316310  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:31.356733  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:31.396454  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:31.450051  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:31.501905  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:31.546482  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:31.593295  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:31.632356  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:31.689232  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:31.722623  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:31.757217  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:31.793263  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:31.836546  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:31.886577  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:31.956145  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:31.989687  [**] [1:100003:1] TCP RST Detected [**] [Priority: 0] {TCP} 10.0.0.20:55857 -> 207.182.182.25:443
+03/01-14:53:31.836465  [**] [1:100003:1] TCP RST Detected [**] [Priority: 0] {TCP} 207.182.182.25:443 -> 10.0.0.20:55857
+03/01-14:53:31.990656  [**] [1:100003:1] TCP RST Detected [**] [Priority: 0] {TCP} 10.0.0.20:55857 -> 207.182.182.25:443
+03/01-14:53:31.996748  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:32.023050  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:32.062928  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:32.117191  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:32.156211  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:32.189955  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:32.234971  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:32.268694  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:31.722623  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:31.757217  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:31.793263  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:31.836546  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:31.886577  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:31.956145  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:31.989688  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 10.0.0.20:55857 -> 207.182.182.25:443
+03/01-14:53:31.836465  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 207.182.182.25:443 -> 10.0.0.20:55857
+03/01-14:53:31.990656  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 10.0.0.20:55857 -> 207.182.182.25:443
+03/01-14:53:31.996748  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:32.023050  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:32.062928  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:32.117191  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:32.156211  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:32.189955  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:32.234971  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:32.268694  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:32.320510  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:32.360459  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:32.403629  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:32.440558  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:32.486582  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:32.524697  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:32.574395  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:32.622792  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:32.659777  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:32.696003  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:32.320510  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:32.360459  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:32.403629  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:32.440558  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:32.486582  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:32.524697  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:32.574395  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:32.622792  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:32.659777  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:32.696003  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:32.743411  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:32.786534  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:32.820570  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:32.868677  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:32.921949  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:32.973878  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:33.011381  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:33.057465  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:33.110121  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:33.154256  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:33.196982  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:33.240341  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:32.743411  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:32.786534  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:32.820570  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:32.868677  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:32.921949  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:32.973878  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:33.011381  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:33.057465  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:33.110121  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:33.154256  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:33.196982  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:33.240341  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:33.313327  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:33.347407  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:33.372934  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:33.403116  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:33.437334  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:33.477296  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:33.517434  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:33.553456  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:33.599508  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:33.653928  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:33.701519  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:33.313327  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:33.347407  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:33.372934  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:33.403116  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:33.437334  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:33.477296  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:33.517434  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:33.553456  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:33.599508  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:33.653928  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:33.701519  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:33.746579  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:33.797242  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:33.843447  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:33.896174  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:33.936880  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:33.971245  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:34.004288  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:34.037745  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:34.101288  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:34.174153  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:34.216587  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:34.257004  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:34.292670  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:33.746579  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:33.797242  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:33.843447  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:33.896174  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:33.936880  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:33.971245  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:34.004288  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:34.037745  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:34.101288  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:34.174153  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:34.216587  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:34.257004  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:34.292670  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:34.323367  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:34.352053  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:34.394380  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:34.447212  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:34.524973  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:34.568099  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:34.606822  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:34.649989  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:34.698725  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:34.741980  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:34.323367  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:34.352053  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:34.394380  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:34.447212  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:34.524973  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:34.568099  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:34.606822  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:34.649989  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:34.698725  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:34.741980  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:34.786307  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:34.822030  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:34.873182  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:34.910115  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:34.954171  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:34.989922  [**] [1:100004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:34.786307  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:34.822030  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:34.873182  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:34.910115  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:34.954171  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:34.989922  [**] [1:1000004:1] TCP FIN Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:57.737313  [**] [1:1000002:2] TCP Port Scan Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:57.775847  [**] [1:1000002:2] TCP Port Scan Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:57.826658  [**] [1:1000002:2] TCP Port Scan Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:57.866504  [**] [1:1000002:2] TCP Port Scan Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:57.903076  [**] [1:1000002:2] TCP Port Scan Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:57.936685  [**] [1:1000002:2] TCP Port Scan Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:57.970678  [**] [1:1000002:2] TCP Port Scan Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:58.003535  [**] [1:1000002:2] TCP Port Scan Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:58.049912  [**] [1:1000002:2] TCP Port Scan Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:57.737313  [**] [1:100002:3] TCP Port Scan Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:57.775847  [**] [1:100002:3] TCP Port Scan Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:57.826658  [**] [1:100002:3] TCP Port Scan Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:57.866504  [**] [1:100002:3] TCP Port Scan Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:57.903076  [**] [1:100002:3] TCP Port Scan Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:57.936685  [**] [1:100002:3] TCP Port Scan Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:57.970678  [**] [1:100002:3] TCP Port Scan Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:58.003535  [**] [1:100002:3] TCP Port Scan Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:58.049911  [**] [1:100002:3] TCP Port Scan Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:58.086825  [**] [1:100002:3] TCP Port Scan Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:58.125885  [**] [1:100002:3] TCP Port Scan Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:58.182216  [**] [1:100002:3] TCP Port Scan Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:58.086826  [**] [1:1000002:2] TCP Port Scan Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:58.125885  [**] [1:1000002:2] TCP Port Scan Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:58.182216  [**] [1:1000002:2] TCP Port Scan Detected [**] [Priority: 0] {TCP} 10.0.0.21:20 -> 10.0.0.20:8080
+03/01-14:53:31.600431  [**] [1:100003:1] TCP RST Detected [**] [Priority: 0] {TCP} 170.72.230.112:443 -> 10.0.0.20:55858
+03/01-14:54:32.177622  [**] [1:100003:1] TCP RST Detected [**] [Priority: 0] {TCP} 170.72.230.112:443 -> 10.0.0.20:55858
+03/01-14:54:32.177623  [**] [1:100003:1] TCP RST Detected [**] [Priority: 0] {TCP} 170.72.230.112:443 -> 10.0.0.20:55858
+03/01-14:53:31.600431  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 170.72.230.112:443 -> 10.0.0.20:55858
+03/01-14:54:32.177622  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 170.72.230.112:443 -> 10.0.0.20:55858
+03/01-14:54:32.177623  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 170.72.230.112:443 -> 10.0.0.20:55858
+03/01-14:54:39.951893  [**] [1:100003:1] TCP RST Detected [**] [Priority: 0] {TCP} 142.250.201.170:443 -> 10.0.0.20:55619
+03/01-14:54:39.951893  [**] [1:100003:1] TCP RST Detected [**] [Priority: 0] {TCP} 142.250.201.170:443 -> 10.0.0.20:55619
+03/01-14:54:39.956130  [**] [1:100003:1] TCP RST Detected [**] [Priority: 0] {TCP} 142.250.201.170:443 -> 10.0.0.20:55619
+03/01-14:54:39.951893  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 142.250.201.170:443 -> 10.0.0.20:55619
+03/01-14:54:39.951893  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 142.250.201.170:443 -> 10.0.0.20:55619
+03/01-14:54:39.956130  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 142.250.201.170:443 -> 10.0.0.20:55619
+03/01-14:54:43.900263  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 142.250.75.234:443 -> 10.0.0.20:55647
+03/01-14:54:43.900264  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 142.250.75.234:443 -> 10.0.0.20:55647
+03/01-14:54:43.900263  [**] [1:100003:1] TCP RST Detected [**] [Priority: 0] {TCP} 142.250.75.234:443 -> 10.0.0.20:55647
+03/01-14:54:43.900264  [**] [1:100003:1] TCP RST Detected [**] [Priority: 0] {TCP} 142.250.75.234:443 -> 10.0.0.20:55647
+03/01-14:54:53.598687  [**] [1:100001:1] Ping Detected [**] [Priority: 0] {ICMP} 10.0.0.21 -> 10.0.0.20
+03/01-14:54:53.598687  [**] [1:100001:1] Ping Detected [**] [Priority: 0] {ICMP} 10.0.0.21 -> 10.0.0.20
+03/01-14:54:54.624894  [**] [1:100001:1] Ping Detected [**] [Priority: 0] {ICMP} 10.0.0.21 -> 10.0.0.20
+03/01-14:54:54.624894  [**] [1:100001:1] Ping Detected [**] [Priority: 0] {ICMP} 10.0.0.21 -> 10.0.0.20
+03/01-14:54:55.626464  [**] [1:100001:1] Ping Detected [**] [Priority: 0] {ICMP} 10.0.0.21 -> 10.0.0.20
+03/01-14:54:55.626464  [**] [1:100001:1] Ping Detected [**] [Priority: 0] {ICMP} 10.0.0.21 -> 10.0.0.20
+03/01-14:54:56.651881  [**] [1:100001:1] Ping Detected [**] [Priority: 0] {ICMP} 10.0.0.21 -> 10.0.0.20
+03/01-14:54:56.651881  [**] [1:100001:1] Ping Detected [**] [Priority: 0] {ICMP} 10.0.0.21 -> 10.0.0.20
+03/01-14:54:57.652873  [**] [1:100001:1] Ping Detected [**] [Priority: 0] {ICMP} 10.0.0.21 -> 10.0.0.20
+03/01-14:54:57.652873  [**] [1:100001:1] Ping Detected [**] [Priority: 0] {ICMP} 10.0.0.21 -> 10.0.0.20
+03/01-14:54:59.619728  [**] [1:100003:1] TCP RST Detected [**] [Priority: 0] {TCP} 216.58.214.161:443 -> 10.0.0.20:55654
+03/01-14:54:59.620710  [**] [1:100003:1] TCP RST Detected [**] [Priority: 0] {TCP} 216.58.214.161:443 -> 10.0.0.20:55654
+03/01-14:54:59.619729  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 216.58.214.161:443 -> 10.0.0.20:55654
+03/01-14:54:59.620710  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 216.58.214.161:443 -> 10.0.0.20:55654
+03/01-14:55:06.372603  [**] [1:100001:1] Ping Detected [**] [Priority: 0] {ICMP} 10.0.0.20 -> 10.0.0.21
+03/01-14:55:06.372604  [**] [1:100001:1] Ping Detected [**] [Priority: 0] {ICMP} 10.0.0.20 -> 10.0.0.21
+03/01-14:55:07.377515  [**] [1:100001:1] Ping Detected [**] [Priority: 0] {ICMP} 10.0.0.20 -> 10.0.0.21
+03/01-14:55:07.377517  [**] [1:100001:1] Ping Detected [**] [Priority: 0] {ICMP} 10.0.0.20 -> 10.0.0.21
+03/01-14:55:08.389304  [**] [1:100001:1] Ping Detected [**] [Priority: 0] {ICMP} 10.0.0.20 -> 10.0.0.21
+03/01-14:55:08.389307  [**] [1:100001:1] Ping Detected [**] [Priority: 0] {ICMP} 10.0.0.20 -> 10.0.0.21
+03/01-14:55:09.418511  [**] [1:100001:1] Ping Detected [**] [Priority: 0] {ICMP} 10.0.0.20 -> 10.0.0.21
+03/01-14:55:09.418513  [**] [1:100001:1] Ping Detected [**] [Priority: 0] {ICMP} 10.0.0.20 -> 10.0.0.21
+03/01-14:55:24.786892  [**] [1:100003:1] TCP RST Detected [**] [Priority: 0] {TCP} 13.37.44.55:443 -> 10.0.0.20:55923
+03/01-14:55:24.786895  [**] [1:100003:1] TCP RST Detected [**] [Priority: 0] {TCP} 13.37.44.55:443 -> 10.0.0.20:55923
+03/01-14:55:24.786893  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 13.37.44.55:443 -> 10.0.0.20:55923
+03/01-14:55:24.786895  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 13.37.44.55:443 -> 10.0.0.20:55923
+03/01-14:55:50.133602  [**] [1:100003:1] TCP RST Detected [**] [Priority: 0] {TCP} 10.0.0.1:80 -> 10.0.0.20:55922
+03/01-14:55:50.133604  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 10.0.0.1:80 -> 10.0.0.20:55922
+03/01-14:56:21.348677  [**] [1:100003:1] TCP RST Detected [**] [Priority: 0] {TCP} 10.0.0.20:55927 -> 96.17.193.62:443
+03/01-14:56:21.348688  [**] [1:100003:1] TCP RST Detected [**] [Priority: 0] {TCP} 10.0.0.20:55929 -> 96.17.193.62:443
+03/01-14:56:21.348680  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 10.0.0.20:55927 -> 96.17.193.62:443
+03/01-14:56:21.348689  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 10.0.0.20:55929 -> 96.17.193.62:443
+03/01-14:56:45.594666  [**] [1:100003:1] TCP RST Detected [**] [Priority: 0] {TCP} 96.16.248.181:443 -> 10.0.0.20:55925
+03/01-14:56:45.594668  [**] [1:100003:1] TCP RST Detected [**] [Priority: 0] {TCP} 96.16.248.181:443 -> 10.0.0.20:55925
+03/01-14:56:45.594783  [**] [1:100003:1] TCP RST Detected [**] [Priority: 0] {TCP} 96.16.248.181:443 -> 10.0.0.20:55925
+03/01-14:56:45.594667  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 96.16.248.181:443 -> 10.0.0.20:55925
+03/01-14:56:45.594668  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 96.16.248.181:443 -> 10.0.0.20:55925
+03/01-14:56:45.594783  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 96.16.248.181:443 -> 10.0.0.20:55925
+03/01-14:56:51.907701  [**] [1:100003:1] TCP RST Detected [**] [Priority: 0] {TCP} 10.0.0.20:55934 -> 20.54.110.119:443
+03/01-14:56:51.907701  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 10.0.0.20:55934 -> 20.54.110.119:443
+03/01-14:56:53.198575  [**] [1:100003:1] TCP RST Detected [**] [Priority: 0] {TCP} 10.0.0.20:55936 -> 51.104.136.2:443
+03/01-14:56:53.198575  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 10.0.0.20:55936 -> 51.104.136.2:443
+03/01-14:56:54.983548  [**] [1:100003:1] TCP RST Detected [**] [Priority: 0] {TCP} 10.0.0.20:55937 -> 13.89.179.9:443
+03/01-14:56:54.983548  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 10.0.0.20:55937 -> 13.89.179.9:443
+03/01-14:57:17.229856  [**] [1:100003:1] TCP RST Detected [**] [Priority: 0] {TCP} 104.18.139.9:443 -> 10.0.0.20:55610
+03/01-14:57:17.229859  [**] [1:100003:1] TCP RST Detected [**] [Priority: 0] {TCP} 104.18.139.9:443 -> 10.0.0.20:55610
+03/01-14:57:17.229857  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 104.18.139.9:443 -> 10.0.0.20:55610
+03/01-14:57:17.229859  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 104.18.139.9:443 -> 10.0.0.20:55610
+03/01-14:57:22.287478  [**] [1:100003:1] TCP RST Detected [**] [Priority: 0] {TCP} 162.159.135.42:443 -> 10.0.0.20:55623
+03/01-14:57:22.287481  [**] [1:100003:1] TCP RST Detected [**] [Priority: 0] {TCP} 162.159.135.42:443 -> 10.0.0.20:55623
+03/01-14:57:22.287482  [**] [1:100003:1] TCP RST Detected [**] [Priority: 0] {TCP} 162.159.135.42:443 -> 10.0.0.20:55623
+03/01-14:57:22.287480  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 162.159.135.42:443 -> 10.0.0.20:55623
+03/01-14:57:22.287482  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 162.159.135.42:443 -> 10.0.0.20:55623
+03/01-14:57:22.287483  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 162.159.135.42:443 -> 10.0.0.20:55623
+03/01-14:57:23.637450  [**] [1:100003:1] TCP RST Detected [**] [Priority: 0] {TCP} 10.0.0.20:55635 -> 162.159.134.42:443
+03/01-14:57:23.637452  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 10.0.0.20:55635 -> 162.159.134.42:443
+03/01-14:57:25.352870  [**] [1:100003:1] TCP RST Detected [**] [Priority: 0] {TCP} 104.19.212.131:443 -> 10.0.0.20:55650
+03/01-14:57:25.352874  [**] [1:100003:1] TCP RST Detected [**] [Priority: 0] {TCP} 104.19.212.131:443 -> 10.0.0.20:55650
+03/01-14:57:25.352877  [**] [1:100003:1] TCP RST Detected [**] [Priority: 0] {TCP} 104.19.212.131:443 -> 10.0.0.20:55650
+03/01-14:57:25.352872  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 104.19.212.131:443 -> 10.0.0.20:55650
+03/01-14:57:25.352875  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 104.19.212.131:443 -> 10.0.0.20:55650
+03/01-14:57:25.352878  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 104.19.212.131:443 -> 10.0.0.20:55650
+03/01-14:58:25.069367  [**] [1:100003:1] TCP RST Detected [**] [Priority: 0] {TCP} 10.0.0.20:55938 -> 207.182.182.25:443
+03/01-14:58:24.716331  [**] [1:100003:1] TCP RST Detected [**] [Priority: 0] {TCP} 207.182.182.25:443 -> 10.0.0.20:55938
+03/01-14:58:25.069369  [**] [1:100003:1] TCP RST Detected [**] [Priority: 0] {TCP} 10.0.0.20:55938 -> 207.182.182.25:443
+03/01-14:58:25.069368  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 10.0.0.20:55938 -> 207.182.182.25:443
+03/01-14:58:24.716332  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 207.182.182.25:443 -> 10.0.0.20:55938
+03/01-14:58:25.069370  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 10.0.0.20:55938 -> 207.182.182.25:443
+03/01-14:58:25.288603  [**] [1:100003:1] TCP RST Detected [**] [Priority: 0] {TCP} 10.0.0.20:55940 -> 170.72.230.131:443
+03/01-14:59:25.796146  [**] [1:100003:1] TCP RST Detected [**] [Priority: 0] {TCP} 170.72.230.131:443 -> 10.0.0.20:55940
+03/01-14:59:25.796995  [**] [1:100003:1] TCP RST Detected [**] [Priority: 0] {TCP} 170.72.230.131:443 -> 10.0.0.20:55940
+03/01-14:58:25.288607  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 10.0.0.20:55940 -> 170.72.230.131:443
+03/01-14:59:25.796151  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 170.72.230.131:443 -> 10.0.0.20:55940
+03/01-14:59:25.796998  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 170.72.230.131:443 -> 10.0.0.20:55940
+03/01-15:00:17.085431  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 13.37.44.55:443 -> 10.0.0.20:55946
+03/01-15:00:17.085434  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 13.37.44.55:443 -> 10.0.0.20:55946
+03/01-15:00:17.085430  [**] [1:100003:1] TCP RST Detected [**] [Priority: 0] {TCP} 13.37.44.55:443 -> 10.0.0.20:55946
+03/01-15:00:17.085433  [**] [1:100003:1] TCP RST Detected [**] [Priority: 0] {TCP} 13.37.44.55:443 -> 10.0.0.20:55946
+03/01-15:00:17.085435  [**] [1:100003:1] TCP RST Detected [**] [Priority: 0] {TCP} 13.37.44.55:443 -> 10.0.0.20:55946
+03/01-15:00:17.085436  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 13.37.44.55:443 -> 10.0.0.20:55946
+03/01-15:00:27.420087  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 129.104.30.30:443 -> 10.0.0.20:55933
+03/01-15:00:27.420091  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 10.0.0.20:55933 -> 129.104.30.30:443
+03/01-15:00:27.420085  [**] [1:100003:1] TCP RST Detected [**] [Priority: 0] {TCP} 129.104.30.30:443 -> 10.0.0.20:55933
+03/01-15:00:27.420089  [**] [1:100003:1] TCP RST Detected [**] [Priority: 0] {TCP} 10.0.0.20:55933 -> 129.104.30.30:443
+03/01-15:00:53.625833  [**] [1:100003:1] TCP RST Detected [**] [Priority: 0] {TCP} 151.101.36.159:443 -> 10.0.0.20:55641
+03/01-15:00:53.644671  [**] [1:100003:1] TCP RST Detected [**] [Priority: 0] {TCP} 10.0.0.20:55641 -> 151.101.36.159:443
+03/01-14:50:43.499574  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 10.0.0.20:55641 -> 151.101.36.159:443
+03/01-15:00:53.644671  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 10.0.0.20:55641 -> 151.101.36.159:443
+03/01-14:59:16.968301  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 10.0.0.20:55944 -> 96.16.248.140:443
+03/01-14:59:16.970092  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 96.16.248.140:443 -> 10.0.0.20:55944
+03/01-15:01:17.169193  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 96.16.248.140:443 -> 10.0.0.20:55944
+03/01-15:01:17.170189  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 96.16.248.140:443 -> 10.0.0.20:55944
+03/01-14:59:16.968300  [**] [1:100003:1] TCP RST Detected [**] [Priority: 0] {TCP} 10.0.0.20:55944 -> 96.16.248.140:443
+03/01-14:59:16.970092  [**] [1:100003:1] TCP RST Detected [**] [Priority: 0] {TCP} 96.16.248.140:443 -> 10.0.0.20:55944
+03/01-15:01:17.169191  [**] [1:100003:1] TCP RST Detected [**] [Priority: 0] {TCP} 96.16.248.140:443 -> 10.0.0.20:55944
+03/01-15:01:17.170187  [**] [1:100003:1] TCP RST Detected [**] [Priority: 0] {TCP} 96.16.248.140:443 -> 10.0.0.20:55944
+03/01-15:02:20.561518  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 10.0.0.20:55951 -> 129.104.30.30:443
+03/01-15:00:43.123755  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 129.104.30.30:443 -> 10.0.0.20:55951
+03/01-15:02:20.561534  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 10.0.0.20:55951 -> 129.104.30.30:443
+03/01-15:02:20.561515  [**] [1:100003:1] TCP RST Detected [**] [Priority: 0] {TCP} 10.0.0.20:55951 -> 129.104.30.30:443
+03/01-15:00:43.123753  [**] [1:100003:1] TCP RST Detected [**] [Priority: 0] {TCP} 129.104.30.30:443 -> 10.0.0.20:55951
+03/01-15:02:20.561521  [**] [1:100003:1] TCP RST Detected [**] [Priority: 0] {TCP} 10.0.0.20:55951 -> 129.104.30.30:443
+03/01-15:03:59.061967  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 10.0.0.20:55958 -> 207.182.182.25:443
+03/01-15:03:58.704586  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 207.182.182.25:443 -> 10.0.0.20:55958
+03/01-15:03:59.061967  [**] [1:100003:1] TCP RST Detected [**] [Priority: 0] {TCP} 10.0.0.20:55958 -> 207.182.182.25:443
+03/01-15:03:59.061968  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 10.0.0.20:55958 -> 207.182.182.25:443
+03/01-15:03:58.704584  [**] [1:100003:1] TCP RST Detected [**] [Priority: 0] {TCP} 207.182.182.25:443 -> 10.0.0.20:55958
+03/01-15:03:59.061967  [**] [1:100003:1] TCP RST Detected [**] [Priority: 0] {TCP} 10.0.0.20:55958 -> 207.182.182.25:443
+03/01-15:03:59.928876  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 10.0.0.20:55959 -> 207.182.182.25:443
+03/01-15:03:59.771797  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 207.182.182.25:443 -> 10.0.0.20:55959
+03/01-15:03:59.928878  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 10.0.0.20:55959 -> 207.182.182.25:443
+03/01-15:03:59.928876  [**] [1:100003:1] TCP RST Detected [**] [Priority: 0] {TCP} 10.0.0.20:55959 -> 207.182.182.25:443
+03/01-15:03:59.771793  [**] [1:100003:1] TCP RST Detected [**] [Priority: 0] {TCP} 207.182.182.25:443 -> 10.0.0.20:55959
+03/01-15:03:59.928877  [**] [1:100003:1] TCP RST Detected [**] [Priority: 0] {TCP} 10.0.0.20:55959 -> 207.182.182.25:443
+03/01-15:05:12.181239  [**] [1:100002:3] TCP Port Scan Detected [**] [Priority: 0] {TCP} 10.0.0.20:55974 -> 192.99.205.82:443
+03/01-15:05:12.366300  [**] [1:100002:3] TCP Port Scan Detected [**] [Priority: 0] {TCP} 10.0.0.20:55975 -> 142.250.179.99:443
+03/01-15:05:12.371749  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 10.0.0.20:55975 -> 142.250.179.99:443
+03/01-15:05:12.399584  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 10.0.0.20:55975 -> 142.250.179.99:443
+03/01-15:05:12.366363  [**] [1:100002:3] TCP Port Scan Detected [**] [Priority: 0] {TCP} 10.0.0.20:55976 -> 142.250.179.99:443
+03/01-15:05:12.371749  [**] [1:100003:1] TCP RST Detected [**] [Priority: 0] {TCP} 10.0.0.20:55975 -> 142.250.179.99:443
+03/01-15:05:12.399584  [**] [1:100003:1] TCP RST Detected [**] [Priority: 0] {TCP} 10.0.0.20:55975 -> 142.250.179.99:443
+03/01-15:05:16.146365  [**] [1:100002:3] TCP Port Scan Detected [**] [Priority: 0] {TCP} 10.0.0.20:55977 -> 129.104.38.10:443
+03/01-15:06:08.814118  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 142.250.75.234:443 -> 10.0.0.20:55954
+03/01-15:06:08.814122  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 142.250.75.234:443 -> 10.0.0.20:55954
+03/01-15:06:08.814116  [**] [1:100003:1] TCP RST Detected [**] [Priority: 0] {TCP} 142.250.75.234:443 -> 10.0.0.20:55954
+03/01-15:06:08.814121  [**] [1:100003:1] TCP RST Detected [**] [Priority: 0] {TCP} 142.250.75.234:443 -> 10.0.0.20:55954
+03/01-15:06:21.140695  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 129.104.30.30:443 -> 10.0.0.20:55957
+03/01-15:06:21.140694  [**] [1:100003:1] TCP RST Detected [**] [Priority: 0] {TCP} 129.104.30.30:443 -> 10.0.0.20:55957
+03/01-15:07:42.352245  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 192.99.205.82:443 -> 10.0.0.20:55971
+03/01-15:07:42.438888  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 192.99.205.82:443 -> 10.0.0.20:55973
+03/01-15:07:42.528920  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 192.99.205.82:443 -> 10.0.0.20:55974
+03/01-15:07:42.352243  [**] [1:100003:1] TCP RST Detected [**] [Priority: 0] {TCP} 192.99.205.82:443 -> 10.0.0.20:55971
+03/01-15:07:42.438885  [**] [1:100003:1] TCP RST Detected [**] [Priority: 0] {TCP} 192.99.205.82:443 -> 10.0.0.20:55973
+03/01-15:07:42.528918  [**] [1:100003:1] TCP RST Detected [**] [Priority: 0] {TCP} 192.99.205.82:443 -> 10.0.0.20:55974
+03/01-15:05:12.286007  [**] [1:100003:1] TCP RST Detected [**] [Priority: 0] {TCP} 192.99.205.82:443 -> 10.0.0.20:55970
+03/01-15:05:12.286008  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 192.99.205.82:443 -> 10.0.0.20:55970
+03/01-15:07:47.289938  [**] [1:100003:1] TCP RST Detected [**] [Priority: 0] {TCP} 192.99.205.82:443 -> 10.0.0.20:55970
+03/01-15:07:47.289940  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 192.99.205.82:443 -> 10.0.0.20:55970
+03/01-15:07:47.691700  [**] [1:100003:1] TCP RST Detected [**] [Priority: 0] {TCP} 192.99.205.82:443 -> 10.0.0.20:55972
+03/01-15:07:47.691703  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 192.99.205.82:443 -> 10.0.0.20:55972
+03/01-15:07:47.895525  [**] [1:100003:1] TCP RST Detected [**] [Priority: 0] {TCP} 192.99.205.82:443 -> 10.0.0.20:55964
+03/01-15:07:47.895528  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 192.99.205.82:443 -> 10.0.0.20:55964
+03/01-15:08:13.129888  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 10.0.0.20:55985 -> 207.182.182.25:443
+03/01-15:08:12.760499  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 207.182.182.25:443 -> 10.0.0.20:55985
+03/01-15:08:13.129891  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 10.0.0.20:55985 -> 207.182.182.25:443
+03/01-15:08:13.129886  [**] [1:100003:1] TCP RST Detected [**] [Priority: 0] {TCP} 10.0.0.20:55985 -> 207.182.182.25:443
+03/01-15:08:12.760490  [**] [1:100003:1] TCP RST Detected [**] [Priority: 0] {TCP} 207.182.182.25:443 -> 10.0.0.20:55985
+03/01-15:08:13.129890  [**] [1:100003:1] TCP RST Detected [**] [Priority: 0] {TCP} 10.0.0.20:55985 -> 207.182.182.25:443
+03/01-15:08:13.370156  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 10.0.0.20:55987 -> 170.72.230.112:443
+03/01-15:09:13.880866  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 170.72.230.112:443 -> 10.0.0.20:55987
+03/01-15:08:13.370156  [**] [1:100003:1] TCP RST Detected [**] [Priority: 0] {TCP} 10.0.0.20:55987 -> 170.72.230.112:443
+03/01-15:09:13.880868  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 170.72.230.112:443 -> 10.0.0.20:55987
+03/01-15:09:13.880862  [**] [1:100003:1] TCP RST Detected [**] [Priority: 0] {TCP} 170.72.230.112:443 -> 10.0.0.20:55987
+03/01-15:09:13.880868  [**] [1:100003:1] TCP RST Detected [**] [Priority: 0] {TCP} 170.72.230.112:443 -> 10.0.0.20:55987
+03/01-15:10:36.503522  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 10.0.0.20:55997 -> 52.182.143.210:443
+03/01-15:10:36.503521  [**] [1:100003:1] TCP RST Detected [**] [Priority: 0] {TCP} 10.0.0.20:55997 -> 52.182.143.210:443
+03/01-15:10:39.525042  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 10.0.0.20:55998 -> 52.182.143.210:443
+03/01-15:10:39.525042  [**] [1:100003:1] TCP RST Detected [**] [Priority: 0] {TCP} 10.0.0.20:55998 -> 52.182.143.210:443
+03/01-15:14:07.028418  [**] [1:100002:3] TCP Port Scan Detected [**] [Priority: 0] {TCP} 10.0.0.20:56020 -> 10.0.0.3:445
+03/01-15:14:07.028420  [**] [1:100002:3] TCP Port Scan Detected [**] [Priority: 0] {TCP} 10.0.0.20:56019 -> 10.0.0.3:62078
+03/01-15:14:07.031343  [**] [1:100002:3] TCP Port Scan Detected [**] [Priority: 0] {TCP} 10.0.0.20:56018 -> 10.0.0.1:445
+03/01-15:14:07.034263  [**] [1:100002:3] TCP Port Scan Detected [**] [Priority: 0] {TCP} 10.0.0.20:56017 -> 10.0.0.1:62078
+03/01-15:14:07.530563  [**] [1:100002:3] TCP Port Scan Detected [**] [Priority: 0] {TCP} 10.0.0.20:56020 -> 10.0.0.3:445
+03/01-15:14:07.530571  [**] [1:100002:3] TCP Port Scan Detected [**] [Priority: 0] {TCP} 10.0.0.20:56019 -> 10.0.0.3:62078
+03/01-15:14:07.533261  [**] [1:100002:3] TCP Port Scan Detected [**] [Priority: 0] {TCP} 10.0.0.20:56018 -> 10.0.0.1:445
+03/01-15:14:07.536156  [**] [1:100002:3] TCP Port Scan Detected [**] [Priority: 0] {TCP} 10.0.0.20:56017 -> 10.0.0.1:62078
+03/01-15:14:08.030822  [**] [1:100002:3] TCP Port Scan Detected [**] [Priority: 0] {TCP} 10.0.0.20:56020 -> 10.0.0.3:445
+03/01-15:14:08.030824  [**] [1:100002:3] TCP Port Scan Detected [**] [Priority: 0] {TCP} 10.0.0.20:56019 -> 10.0.0.3:62078
+03/01-15:14:08.034726  [**] [1:100002:3] TCP Port Scan Detected [**] [Priority: 0] {TCP} 10.0.0.20:56018 -> 10.0.0.1:445
+03/01-15:14:08.038583  [**] [1:100002:3] TCP Port Scan Detected [**] [Priority: 0] {TCP} 10.0.0.20:56017 -> 10.0.0.1:62078
+03/01-15:14:36.390425  [**] [1:100002:3] TCP Port Scan Detected [**] [Priority: 0] {TCP} 10.0.0.20:56023 -> 10.0.0.2:445
+03/01-15:15:02.425961  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 10.0.0.20:56036 -> 207.182.182.25:443
+03/01-15:15:02.068701  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 207.182.182.25:443 -> 10.0.0.20:56036
+03/01-15:15:02.425962  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 10.0.0.20:56036 -> 207.182.182.25:443
+03/01-15:15:02.425960  [**] [1:100003:1] TCP RST Detected [**] [Priority: 0] {TCP} 10.0.0.20:56036 -> 207.182.182.25:443
+03/01-15:15:02.068699  [**] [1:100003:1] TCP RST Detected [**] [Priority: 0] {TCP} 207.182.182.25:443 -> 10.0.0.20:56036
+03/01-15:15:02.425962  [**] [1:100003:1] TCP RST Detected [**] [Priority: 0] {TCP} 10.0.0.20:56036 -> 207.182.182.25:443
+03/01-15:15:03.422006  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 10.0.0.20:56037 -> 207.182.182.25:443
+03/01-15:15:03.265713  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 207.182.182.25:443 -> 10.0.0.20:56037
+03/01-15:15:03.422117  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 10.0.0.20:56037 -> 207.182.182.25:443
+03/01-15:15:03.422006  [**] [1:100003:1] TCP RST Detected [**] [Priority: 0] {TCP} 10.0.0.20:56037 -> 207.182.182.25:443
+03/01-15:15:03.265710  [**] [1:100003:1] TCP RST Detected [**] [Priority: 0] {TCP} 207.182.182.25:443 -> 10.0.0.20:56037
+03/01-15:15:03.422117  [**] [1:100003:1] TCP RST Detected [**] [Priority: 0] {TCP} 10.0.0.20:56037 -> 207.182.182.25:443
+03/01-15:16:03.630671  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 170.72.230.133:443 -> 10.0.0.20:56038
+03/01-15:16:03.630674  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 170.72.230.133:443 -> 10.0.0.20:56038
+03/01-15:16:03.630667  [**] [1:100003:1] TCP RST Detected [**] [Priority: 0] {TCP} 170.72.230.133:443 -> 10.0.0.20:56038
+03/01-15:16:03.630674  [**] [1:100003:1] TCP RST Detected [**] [Priority: 0] {TCP} 170.72.230.133:443 -> 10.0.0.20:56038
+03/01-15:17:56.419566  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 10.0.0.20:56040 -> 162.125.67.13:443
+03/01-15:17:56.419566  [**] [1:100003:1] TCP RST Detected [**] [Priority: 0] {TCP} 10.0.0.20:56040 -> 162.125.67.13:443
+03/01-15:18:13.120457  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 10.0.0.20:56041 -> 207.182.182.25:443
+03/01-15:18:12.750782  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 207.182.182.25:443 -> 10.0.0.20:56041
+03/01-15:18:13.120459  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 10.0.0.20:56041 -> 207.182.182.25:443
+03/01-15:18:13.120457  [**] [1:100003:1] TCP RST Detected [**] [Priority: 0] {TCP} 10.0.0.20:56041 -> 207.182.182.25:443
+03/01-15:18:12.750780  [**] [1:100003:1] TCP RST Detected [**] [Priority: 0] {TCP} 207.182.182.25:443 -> 10.0.0.20:56041
+03/01-15:18:13.120458  [**] [1:100003:1] TCP RST Detected [**] [Priority: 0] {TCP} 10.0.0.20:56041 -> 207.182.182.25:443
+03/01-15:18:13.540818  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 170.72.230.131:443 -> 10.0.0.20:56043
+03/01-15:18:13.540815  [**] [1:100003:1] TCP RST Detected [**] [Priority: 0] {TCP} 170.72.230.131:443 -> 10.0.0.20:56043
+03/01-15:19:13.883734  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 170.72.230.131:443 -> 10.0.0.20:56043
+03/01-15:19:13.883732  [**] [1:100003:1] TCP RST Detected [**] [Priority: 0] {TCP} 170.72.230.131:443 -> 10.0.0.20:56043
+03/01-15:19:13.883735  [**] [1:100003:1] TCP RST Detected [**] [Priority: 0] {TCP} 170.72.230.131:443 -> 10.0.0.20:56043
+03/01-15:19:13.883736  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 170.72.230.131:443 -> 10.0.0.20:56043
+03/01-15:21:16.511005  [**] [1:1000003:1] TCP RST Detected [**] [Priority: 0] {TCP} 10.0.0.20:56046 -> 95.100.95.152:443
+03/01-15:21:16.511004  [**] [1:100003:1] TCP RST Detected [**] [Priority: 0] {TCP} 10.0.0.20:56046 -> 95.100.95.152:443

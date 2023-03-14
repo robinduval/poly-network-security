@@ -1,0 +1,51 @@
+When you point your computer to use 127.0.0.1 DNS server, and try to access http://www.google.fr/ or http://www.polytechnique.fr/, your computer will try to resolve the domain names by sending DNS queries to the local DNS server (i.e., the BIND server running on 127.0.0.1).
+- In the case of http://www.google.fr/, the BIND server will forward the DNS query to the root DNS server, which will then direct it to the appropriate DNS server for the domain. Since the BIND server is not authoritative for the google.fr domain, it will not perform any DNSSEC validation, and will return the IP address for the domain to your computer.
+- In the case of http://www.polytechnique.fr/, since the BIND server is authoritative for the domain, it will perform DNSSEC validation according to the configuration in the named.conf file. If the DNSSEC signature is valid, the BIND server will return the IP address for the domain to your computer. If the DNSSEC signature is invalid or missing, the BIND server will not return any information for the domain.
+
+To modify the named.conf file to only serve DNSSEC validated RRsets, you can add the following lines to the options section:
+
+`dnssec-accept-expired yes;`
+This accepts expired signatures when verifying DNSSEC signatures. The default is no. 
+Setting this option to yes leaves named vulnerable to replay attacks.
+
+`dnssec-must-be-secure yes;`
+From Doc : This specifies hierarchies which must be or may not be secure (signed and validated). 
+If yes, then named only accepts answers if they are secure. If no, then normal DNSSEC validation applies, allowing insecure answers to be accepted. 
+The specified domain must be defined as a trust anchor, for instance in a trust-anchors statement, or dnssec-validation auto must be active.
+
+validate-except
+This specifies a list of domain names at and beneath which DNSSEC validation should not be performed, 
+ regardless of the presence of a trust anchor at or above those names. 
+This may be used, for example, when configuring a top-level domain intended only for local use,
+ so that the lack of a secure delegation for that domain in the root zone does not cause validation failures. 
+ (This is similar to setting a negative trust anchor except that it is a permanent configuration,
+  whereas negative trust anchors expire and are removed after a set period of time.)
+
+This will ensure that the BIND server only serves DNSSEC validated RRsets, and will reject any requests for domains that are not DNSSEC signed.
+
+Exemple 
+
+options {
+    directory "/var/cache/bind";
+    recursion yes;
+    allow-query { authorisedclients; };
+    dnssec-validation auto;
+    auth-nxdomain no;
+    listen-on-v6 { any; };
+};
+
+zone "polytechnique.fr" {
+    type master;
+    file "/etc/bind/db.polytechnique.fr";
+    dnssec-must-be-secure yes;
+};
+
+# Exempt the DNS root zone from DNSSEC validation
+# This is necessary because the DNS root zone is not signed with DNSSEC
+# and would otherwise fail validation
+zone "." {
+    type hint;
+    file "/etc/bind/db.root";
+    dnssec-accept-expired yes;
+    validate-except "."; # Exempt the DNS root zone from DNSSEC validation
+};

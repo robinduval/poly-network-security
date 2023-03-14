@@ -1,0 +1,65 @@
+######## robin@rubuntu:~$ dig @10.0.0.26 mytld. +dnssec +multiline
+
+; <<>> DiG 9.18.1-1ubuntu1.3-Ubuntu <<>> @10.0.0.26 mytld. +dnssec +multiline
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 34721
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 4, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags: do; udp: 1232
+; COOKIE: 28f4854166173e0f0100000064106230ddb59c7e9afa509b (good)
+;; QUESTION SECTION:
+;mytld.			IN A
+
+;; AUTHORITY SECTION:
+mytld.			3600 IN	SOA ns1.mytld. root.ns1.mytld. (
+				2          ; serial
+				604800     ; refresh (1 week)
+				86400      ; retry (1 day)
+				2419200    ; expire (4 weeks)
+				604800     ; minimum (1 week)
+				)
+mytld.			3600 IN	RRSIG SOA 13 1 3600 (
+				20230413105603 20230314105603 35015 mytld.
+				puGTffNNWLL3nPMZ1vzChOV1xcbC7Z/25Ag4t/B8QPNU
+				LnYbLdXm02cLzJ2oKKg0heDzhy90M52jUooJtg+pBw== )
+mytld.			3600 IN	NSEC example.com.mytld. NS SOA RRSIG NSEC DNSKEY
+mytld.			3600 IN	RRSIG NSEC 13 1 3600 (
+				20230413105603 20230314105603 35015 mytld.
+				3ijbBD4PDsQwz/eoY78RpmFQl6sRGQqxeLQjTjrAziNC
+				6O4WEtiJ+n2elu0BHVTQIQEuX9zMuAgVIN436V6Wrw== )
+
+;; Query time: 0 msec
+;; SERVER: 10.0.0.26#53(10.0.0.26) (UDP)
+;; WHEN: Tue Mar 14 13:01:52 CET 2023
+;; MSG SIZE  rcvd: 349
+
+######## robin@rubuntu:~$ dig @10.0.0.26 rainbow.mytld. +dnssec +multiline
+
+; <<>> DiG 9.18.1-1ubuntu1.3-Ubuntu <<>> @10.0.0.26 rainbow.mytld. +dnssec +multiline
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 20890
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags: do; udp: 1232
+; COOKIE: 43d067a03a8c5a2201000000641062476478deda221b1654 (good)
+
+; QUESTION SECTION:
+;rainbow.mytld.		IN A
+
+;; ANSWER SECTION:
+rainbow.mytld.		3600 IN	A 127.0.0.1
+rainbow.mytld.		3600 IN	RRSIG A 13 2 3600 (
+	  		20230413105603 20230314105603 35015 mytld.
+  			kF8Bhpo1oEcjn9+P/AD2JhylOuRC6HbuhqZc5vmBDiSZ
+				4n0dksiVhGBfGZMVu+ZAfk8/Nq/obNqslzl0NVJhFw== )
+
+;; Query time: 0 msec
+;; SERVER: 10.0.0.26#53(10.0.0.26) (UDP)
+;; WHEN: Tue Mar 14 13:02:15 CET 2023
+;; MSG SIZE  rcvd: 187

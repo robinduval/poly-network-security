@@ -1,0 +1,14 @@
+Abandon de l'installation de Bind sur Parrot Paquet non safe a cause CVE.
+Installation sur Ubuntu 22.04 (machine rubuntu 10.0.0.26)
+Sur le TP, Bind est en 9.11 au lieu de 9.18
+Lien vers les lignes de commandes permettant de démarrer et eteindre Bind : https://www.cyberciti.biz/faq/start-stop-restart-bind9-linux-command/
+Corrections
+- Il manque les install au sudo apt-get install curl bind9
+- Les repertoires de conf ne se retrouvent pas comme dans les captures d'écran suite à un correctif sécurité 
+- Le fichier de conf se trouve en /etc/bind/named.conf (et non en /etc/named.conf)
+-> Bonne pratique : Modifier /etc/bind/named.conf.local 
+`/usr/local/sbin/named-checkconf` (ne fonctionnera pas si vous avez installer bind9 correctement) vous pouvez taper `named-checkconf` directement
+-> Bonne pratique : Utiliser le fichier /etc/bind/named.conf.options pour les options
+-> Bonne pratique : Utiliser le fichier /etc/bind/named.conf.default-zones pour les zones
+`sudo /usr/sbin/named  -c /etc/named.conf -d 3 -g` ne fonctionnera pas, faire -> `sudo named -c /etc/bind/named.conf -d 3 -g`
+

@@ -1,0 +1,15 @@
+# Ping Alert
+alert icmp any any -> any any (itype: 8; msg: "Ping Detected"; sid:100001; rev:1;)
+
+# TCP Port Scan Alert for me - 10 events in 1 second
+# alert tcp any any -> $HOME_NET any (flags:S; dsize:0; detection_filter:track by_src, count 10, seconds 1; msg:"TCP Port Scan Detected"; sid:100002; rev:1;)
+
+# TCP Port Scan Alert for any 
+#alert tcp any any -> any any (flags:S; dsize:0; detection_filter:track by_src, count 10, seconds 5; msg:"TCP Port Scan Detected"; sid:100002; rev:2;)
+alert tcp any any -> any any (flags:S; detection_filter:track by_src, count 10, seconds 5; msg:"TCP Port Scan Detected"; sid:100002; rev:3;)
+
+# Detect TCP RST packets
+alert tcp any any -> any any (flags: R; msg: "TCP RST Detected"; sid: 100003;rev:1;)
+
+# Detect TCP FIN packets
+alert tcp any any -> any any (flags: F; msg: "TCP FIN Detected"; sid: 100004;rev:1;)

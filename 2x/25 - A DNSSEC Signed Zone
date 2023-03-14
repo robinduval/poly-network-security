@@ -1,0 +1,17 @@
+sudo dnssec-keygen -3 -a ECDSAP256SHA256 -r /dev/random mytld <-- -r est deprecated
+--> Utiliser ça : sudo dnssec-keygen -3 -a ECDSAP256SHA256 mytld
+Mon resultat : Kmytld.+013+35015
+
+La ligne de commande ne va pas générer 
+- Kmytld.+013+xxxxx.key
+- Kmytld.+013+xxxxx.key.private
+Mais
+- Kmytld.+013+xxxxx.key
+- Kmytld.+013+xxxxx.private
+
+sudo dnssec-keygen -f KSK -3 -a ECDSAP256SHA256 mytld (ne pas mettre -r qui est deprecated)
+Mon resultat : Kmytld.+013+54159
+
+Je n'ai pas utilisé include mais directement fait un copier-coller.
+
+trusted-keys is deprecated, il faut utiliser trust-anchors 

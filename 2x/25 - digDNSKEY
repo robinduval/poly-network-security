@@ -1,0 +1,28 @@
+#robin@rubuntu:~$ dig @10.0.0.26 mytld. DNSKEY +multiline
+; <<>> DiG 9.18.1-1ubuntu1.3-Ubuntu <<>> @10.0.0.26 mytld. DNSKEY +multiline
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 35298
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+; COOKIE: c9b0981976ca2cb40100000064104882adc5936601a00a8d (good)
+;; QUESTION SECTION:
+;mytld.			IN DNSKEY
+
+;; ANSWER SECTION:
+mytld.			3600 IN	DNSKEY 257 3 13 (
+				H0mfB4Id9eu7s4WXN+OgerZi7Os6reYo/lXeMqOqnkxv
+				z9rvcGpW5M8oEo03xfJ3eQ99pxq+uNxTnXV6CPHifQ==
+				) ; KSK; alg = ECDSAP256SHA256 ; key id = 54159
+mytld.			3600 IN	DNSKEY 256 3 13 (
+				BJyFZ4iUFsgkYC7z5YBFemZTqz8buw9LZPhFDfZ8T4TH
+				0ANXvfvDECU4+o3yI11L9D9vqPdbt7FkmC7q3flwjw==
+				) ; ZSK; alg = ECDSAP256SHA256 ; key id = 35015
+
+;; Query time: 0 msec
+;; SERVER: 10.0.0.26#53(10.0.0.26) (UDP)
+;; WHEN: Tue Mar 14 11:12:18 CET 2023
+;; MSG SIZE  rcvd: 222

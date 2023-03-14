@@ -1,0 +1,26 @@
+# /etc/bind/named.conf.local
+// Consider adding the 1918 zones here, if they are not used in your
+// organization
+//include "/etc/bind/zones.rfc1918";
+
+acl authorisedclients {
+    10.0.0.0/24;
+    localhost;
+    localnets;
+};
+
+options {
+     directory "/var/cache/bind";         # This is the file, where cached names will be stored
+     recursion yes;                       # Do we allow the server to do recursion? (remember, the ra flag?)
+     allow-query { authorisedclients; } ; # A list of ACLs that specify who is allowed to query the server.
+     dnssec-validation auto;              # yes, no, auto
+     #dnssec-must-be-secure polytechnique.fr yes;
+     auth-nxdomain no;                    # This is included for RFC1035 conformity
+     listen-on-v6 { any; };               #
+};
+
+
+zone "." {
+     type hint;
+     file "/etc/db.root";
+};

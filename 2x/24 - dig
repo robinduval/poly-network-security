@@ -1,0 +1,34 @@
+; <<>> DiG 9.18.1-1ubuntu1.3-Ubuntu <<>> @127.0.0.1 www.polytechnique.fr +dnssec
+
+; (1 server found)
+
+;; global options: +cmd
+
+;; Got answer:
+
+;; ->>HEADER<<- opcode: QUERY, status: SERVFAIL, id: 14908
+
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+
+
+;; OPT PSEUDOSECTION:
+
+; EDNS: version: 0, flags: do; udp: 1232
+
+; COOKIE: c38dc1aabfe63fc501000000640fa5490df74abd8100138a (good)
+
+;; QUESTION SECTION:
+
+;www.polytechnique.fr.		IN	A
+
+
+
+;; Query time: 335 msec
+
+;; SERVER: 127.0.0.1#53(127.0.0.1) (UDP)
+
+;; WHEN: Mon Mar 13 23:35:53 CET 2023
+
+;; MSG SIZE  rcvd: 77
+
