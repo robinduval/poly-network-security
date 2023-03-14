@@ -1,36 +1,43 @@
 #!/usr/bin/env python3
 
-import os
+
 import socket
 import subprocess
 
 # Chemin d'accès aux fichiers du serveur et du client
+# SERVER : Parrot   : 10.0.0.27
+# CLIENT : RUNBUNTU : 10.0.0.26
+
 SERVER_DIR = "server_files/"
 CLIENT_DIR = "client_files/"
 
-# Connecte le client au serveur
-client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-client_socket.connect(("localhost", 8080))
+SERVER_IP = "10.0.0.27"
+CLIENT_IP = "10.0.0.26"
 
-# Récupère la clé publique du serveur
-subprocess.run(["openssl", "rsa", "-in", f"{SERVER_DIR}server_key.pem", "-pubout", "-out", f"{CLIENT_DIR}server_key.pub"])
+PORT = 8080
 
-# Génère une clé symétrique aléatoire
-sym_key = os.urandom(32)
+# Crée une socket pour le serveur et écoute les connexions entrantes
+server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+server_socket.bind(("localhost", 8080))
+server_socket.listen()
 
-# Chiffre la clé symétrique avec la clé publique du serveur
-subprocess.run(["openssl", "rsautl", "-encrypt", "-inkey", f"{CLIENT_DIR}server_key.pub", "-pubin", "-in", f"{CLIENT_DIR}sym_key", "-out", f"{CLIENT_DIR}sym_key.enc"])
+# Accepte une connexion entrante
+client_socket, addr = server_socket.accept()
 
-# Envoie la clé symétrique chiffrée au serveur
-sym_key_enc = open(f"{CLIENT_DIR}sym_key.enc", "rb").read()
-client_socket.sendall(sym_key_enc)
+# Récupère la clé privée du serveur
+subprocess.run(["openssl", "genpkey", "-algorithm", "RSA", "-out", f"{SERVER_DIR}server_key.pem"])
 
-# Chiffre le fichier avec la clé symétrique
-subprocess.run(["openssl", "enc", "-aes-256-cbc", "-in", f"{CLIENT_DIR}file_to_send", "-out", f"{CLIENT_DIR}encrypted_file", "-k", f"{sym_key}"])
+# Récupère la clé publique envoyée par le client
+client_key = client_socket.recv(1024)
 
-# Envoie le fichier chiffré au serveur
-encrypted_file = open(f"{CLIENT_DIR}encrypted_file", "rb").read()
-client_socket.sendall(encrypted_file)
+# Déchiffre la clé symétrique avec la clé privée du serveur
+subprocess.run(["openssl", "rsautl", "-decrypt", "-inkey", f"{SERVER_DIR}server_key.pem", "-in", f"{CLIENT_DIR}sym_key.enc", "-out", f"{SERVER_DIR}sym_key"])
 
-# Ferme la connexion avec le serveur
+# Déchiffre le fichier avec la clé symétrique
+subprocess.run(["openssl", "enc", "-d", "-aes-256-cbc", "-in", f"{CLIENT_DIR}encrypted_file", "-out", f"{SERVER_DIR}decrypted_file", "-k", open(f"{SERVER_DIR}sym_key", "rb").read()])
+
+# Ferme la connexion avec le client
 client_socket.close()
+
+# Ferme la socket du serveur
+server_socket.close()
