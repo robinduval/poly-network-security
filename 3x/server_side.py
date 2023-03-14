@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-
+import os
 import socket
 import subprocess
 
@@ -26,7 +26,14 @@ def receive_file(ip, port):
 	client_key = client_socket.recv(1024)
 
 	# Déchiffre la clé symétrique avec la clé privée du serveur
-	subprocess.run(["openssl", "rsautl", "-decrypt", "-inkey", f"{SERVER_DIR}server_key.pem", "-in", f"{CLIENT_DIR}sym_key.enc", "-out", f"{SERVER_DIR}sym_key"])
+ 	#	subprocess.run(["openssl", "rsautl", "-decrypt", "-inkey", f"{SERVER_DIR}server_key.pem", "-in", f"{CLIENT_DIR}sym_key.enc", "-out", f"{SERVER_DIR}sym_key"])
+	decrypt_key_process = subprocess.run(["openssl", "rsautl", "-decrypt", "-inkey", f"{SERVER_DIR}server_key.pem", "-in", f"{CLIENT_DIR}sym_key.enc", "-out", f"{SERVER_DIR}sym_key"], stderr=subprocess.PIPE)
+
+	# Check if the decryption process succeeded
+	if decrypt_key_process.returncode != 0:
+		print(f"An error occurred while decrypting the symmetric key: {decrypt_key_process.stderr.decode('utf-8')}")
+		os._exit(1)  # Stop the program
+
 
 	# Déchiffre le fichier avec la clé symétrique
 	subprocess.run(["openssl", "enc", "-d", "-aes-256-cbc", "-in", f"{CLIENT_FILE_RECEIVED_ENCRYPTED}", "-out", f"{CLIENT_FILE_RECEIVED_DECRYPTED}", "-k", open(f"{SERVER_DIR}sym_key", "rb").read()])
