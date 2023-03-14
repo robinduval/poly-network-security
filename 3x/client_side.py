@@ -31,7 +31,7 @@ def send_file(ip, port):
     client_socket.sendall(sym_key_enc)
 
     # Chiffre le fichier avec la clé symétrique
-    subprocess.run(["openssl", "enc", "-aes-256-cbc", "-in", f"{CLIENT_FILE_TO_SEND}", "-out", f"{CLIENT_FILE_TO_SEND_ENCRYPTED}", "-k", f"{sym_key}"])
+	subprocess.run(["openssl", "enc", "-aes-256-cbc", "-in", f"{CLIENT_FILE_TO_SEND}", "-out", f"{CLIENT_FILE_TO_SEND_ENCRYPTED}", "-k", f"{sym_key}", "-pbkdf2"])
 
     # Envoie le fichier chiffré au serveur
     encrypted_file = open(f"{CLIENT_FILE_TO_SEND_ENCRYPTED}", "rb").read()
