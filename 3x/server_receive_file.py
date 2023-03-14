@@ -29,6 +29,10 @@ def receive_file(file_path, ip, port):
             client_socket.close()
         server_socket.close()
 
+# SERVER : Parrot   : 10.0.0.27
+# CLIENT : RUNBUNTU : 10.0.0.26
+
+
 filepath = 'received_file.txt'
 client_ip = '10.0.0.27'
 port = 8080
