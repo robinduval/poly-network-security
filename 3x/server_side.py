@@ -19,14 +19,11 @@ def receive_file(ip, port):
     # Accepte une connexion entrante
     client_socket, addr = server_socket.accept()
 
-    # Récupère la clé privée du serveur
-    subprocess.run(["openssl", "genpkey", "-algorithm", "RSA", "-out", f"{SERVER_DIR}server_key.pem"])
-
     # Récupère la clé publique envoyée par le client
     client_key = client_socket.recv(1024)
 
     # Déchiffre la clé symétrique avec la clé privée du serveur
-    decrypt_key_process = subprocess.run(["openssl", "rsautl", "-decrypt", "-inkey", f"{SERVER_DIR}server_key.pem", "-in", f"{CLIENT_DIR}sym_key.enc", "-out", f"{SERVER_DIR}sym_key"], stderr=subprocess.PIPE)
+    decrypt_key_process = subprocess.run(["openssl", "rsautl", "-decrypt", "-inkey", "server_key.pem", "-in", CLIENT_DIR+"sym_key.enc", "-out", SERVER_DIR+"sym_key"], stderr=subprocess.PIPE)
 
     # Check if the decryption process succeeded
     if decrypt_key_process.returncode != 0:
@@ -34,12 +31,7 @@ def receive_file(ip, port):
         os._exit(1)  # Stop the program
 
     # Déchiffre le fichier avec la clé symétrique
-    decrypt_file_process = subprocess.run(["openssl", "enc", "-d", "-aes-256-cbc", "-in", f"{CLIENT_FILE_RECEIVED_ENCRYPTED}", "-out", f"{CLIENT_FILE_RECEIVED_DECRYPTED}", "-k", open(f"{SERVER_DIR}sym_key", "rb").read()], stderr=subprocess.PIPE)
-
-    # Check if the decryption process succeeded
-    if decrypt_file_process.returncode != 0:
-        print(f"An error occurred while decrypting the file: {decrypt_file_process.stderr.decode('utf-8')}")
-        os._exit(1)  # Stop the program
+    subprocess.run(["openssl", "enc", "-d", "-aes-256-cbc", "-in", CLIENT_FILE_RECEIVED_ENCRYPTED, "-out", CLIENT_FILE_RECEIVED_DECRYPTED, "-k", open(SERVER_DIR+"sym_key", "rb").read()])
 
     # Ferme la connexion avec le client
     client_socket.close()
