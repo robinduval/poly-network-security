@@ -29,7 +29,7 @@ def receive_file(ip, port):
 	subprocess.run(["openssl", "rsautl", "-decrypt", "-inkey", f"{SERVER_DIR}server_key.pem", "-in", f"{CLIENT_DIR}sym_key.enc", "-out", f"{SERVER_DIR}sym_key"])
 
 	# Déchiffre le fichier avec la clé symétrique
-	subprocess.run(["openssl", "enc", "-d", "-aes-256-cbc", "-in", f"{CLIENT_FILE_RECEIVED_ENCRYPTED}", "-out", f"{CLIENT_FILE_TO_SEND_DECRYPTED}", "-k", open(f"{SERVER_DIR}sym_key", "rb").read()])
+	subprocess.run(["openssl", "enc", "-d", "-aes-256-cbc", "-in", f"{CLIENT_FILE_RECEIVED_ENCRYPTED}", "-out", f"{CLIENT_FILE_RECEIVED_DECRYPTED}", "-k", open(f"{SERVER_DIR}sym_key", "rb").read()])
 
 	# Ferme la connexion avec le client
 	client_socket.close()
