@@ -90,4 +90,4 @@ encrypt_the_key = subprocess.run(['openssl', 'enc', '-aes-256-cbc', '-salt', '-i
 
 send(server_ip, clientsymkey_port, 'server_public_key_forkey.pem')
   
-send(server_ip, clientendata_port, 'server_public_key_forkey.pem')
+send(server_ip, clientendata_port, 'raw.enc')

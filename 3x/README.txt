@@ -13,6 +13,7 @@ connect+sendall
 openssl rand -hex 32 > client_key_forfile.txt
 
 # CLIENT // RECEIVE PUBLIC KEY (from SERVER)
+DONE
 
 # CLIENT // ENCRYPT SYMMETRIC KEY (WITH PUBLIC SERVER KEY)
 openssl enc -aes-256-cbc -salt -in client_key_forfile.txt -out client_key_forfile.enc -pass file:server_public_key_forkey.pem -pbkdf2
