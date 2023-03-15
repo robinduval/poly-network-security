@@ -25,27 +25,27 @@ def bind_and_listen(ip, port):
 def receive(ip, port, filename):
     # Receive asymmetric public key
     connected = False
-        while not connected:
-            try:
-                s, conn = bind_and_listen(ip, port)
-                connected = True
-                with conn:
-                    with open(filename, 'wb') as f:
-                        while True:
-                            data = conn.recv(1024)
-                            if not data:
-                                break
-                            f.write(data)
-            except ConnectionRefusedError as e:
-                # If connection is refused, wait 1 second and try again
-                print(f"Connection refused to RECEIVED wait 1 sec {filename} : {e}")
-                time.sleep(1)
-                continue
-                # Ferme la connexion avec le client
-            except Exception as e:
-                print(f"Error Receiving {filename} : {e}")
-                s.close()
-                os._exit(1)
+    while not connected:
+        try:
+            s, conn = bind_and_listen(ip, port)
+            connected = True
+            with conn:
+                with open(filename, 'wb') as f:
+                    while True:
+                        data = conn.recv(1024)
+                        if not data:
+                            break
+                        f.write(data)
+        except ConnectionRefusedError as e:
+            # If connection is refused, wait 1 second and try again
+            print(f"Connection refused to RECEIVED wait 1 sec {filename} : {e}")
+            time.sleep(1)
+            continue
+            # Ferme la connexion avec le client
+        except Exception as e:
+            print(f"Error Receiving {filename} : {e}")
+            s.close()
+            os._exit(1)
 
 def send(ip, port, filename):
     connected = False
@@ -57,7 +57,7 @@ def send(ip, port, filename):
                 with open('filename', 'rb') as f:
                     data = f.read()
                     s.sendall(data)
-        except ConnectionRefusedError:
+        except ConnectionRefusedError as e:
             # If connection is refused, wait 1 second and try again
             print(f"Connection refused to SEND wait 1 sec {filename} : {e}")
             time.sleep(1)
