@@ -84,4 +84,8 @@ if extract_public_key.returncode != 0:
     print(f"An error occurred while extract_public_key: {extract_public_key.stderr.decode('utf-8')}")
     os._exit(1)  # Stop the program
   
-send(client_ip, clientsymkey_port, 'server_public_key_forkey.pem')
+send(client_ip, serverpubkey_port, 'server_public_key_forkey.pem')
+
+receive(server_ip, clientsymkey_port, 'server_public_key_forkey.pem')
+
+receive(server_ip, clientendata_port, 'server_public_key_forkey.pem')
