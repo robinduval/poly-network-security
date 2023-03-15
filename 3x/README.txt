@@ -14,10 +14,14 @@ openssl rsa -in private_key_forkey.pem -pubout -out public_key_forkey.pem
 openssl enc -aes-256-cbc -salt -in key_forfile.txt -out key_forfile.enc -pass file:public_key_forkey.pem -pbkdf2
 
 # CLIENT // SEND ASYMETRIC PUBLIC KEY
+COMPLETE
 # CLIENT // SEND SYMMETRIC CRYPTED FILE
+COMPLETE
 
-# SERVER // RECEIVE ASYMETRIC PUBLIC KEY FROM CLIENT
-# SERVER // RECEIVE SYLLETRIC CRYPTED FILE
+# CLIENT // SEND ASYMETRIC PUBLIC KEY
+COMPLETE
+# CLIENT // SEND SYMMETRIC CRYPTED FILE
+COMPLETE
 
 # SERVER // DECRYPT ASYMETRIC PUBLIC KEY FROM CLIENT
 openssl enc -d -aes-256-cbc -salt -in key_forfile.enc -out key_forfile.txt.dec -pass file:public_key_forkey.pem -pbkdf2
