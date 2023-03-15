@@ -1,0 +1,8 @@
+# SERVER // ASYMETRIC CRYPT PUBLIC KEY
+#           GENERATE PRIVATE
+openssl genrsa -out private.pem 2048 
+#           EXTRACT PUBLIC
+openssl rsa -in private.pem -pubout -out public.pem
+
+#Sign a text
+cat raw.txt | openssl dgst -sha256 -sign private.pem -out signature.bin

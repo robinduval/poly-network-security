@@ -1,0 +1,2 @@
+public_key_path = 'tmp/public.pem'
+identity = 'robin'
