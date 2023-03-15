@@ -17,6 +17,7 @@ def receive(ip, port):
     with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
         s.bind((ip, port))
         s.listen()
+        print('Listen')
         conn, addr = s.accept()
         with conn:
             with open('public_key_forkey.pem', 'wb') as f:
@@ -25,6 +26,8 @@ def receive(ip, port):
                     if not data:
                         break
                     f.write(data)
+
+    time.sleep(10)
     
     # RECEIVE SYMMETRIC CRYPTED FILE
     print('RECEIVE CRYPTED FILE')
