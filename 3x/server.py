@@ -86,7 +86,7 @@ if extract_public_key.returncode != 0:
   
 send(client_ip, serverpubkey_port, 'server_public_key_forkey.pem')
 
-receive(server_ip, clientsymkey_port, 'server_public_key_forkey.pem')
+receive(server_ip, clientsymkey_port, 'client_key_forfile.enc')
 
 receive(server_ip, clientendata_port, 'raw.enc')
 
