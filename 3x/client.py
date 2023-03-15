@@ -2,6 +2,7 @@
 
 import os
 import socket
+import time
 import subprocess
 
 # Chemin d'accès aux fichiers du serveur et du client
@@ -9,7 +10,7 @@ SERVER_DIR = "server_files/"
 CLIENT_DIR = "client_files/"
 FILE_TO_SEND = "client_files/raw.txt"
 
-def send(ip, port):
+def send(ip, key_port, file_port):
     # Generate a public key FOR SYMMETRIC CRYPT
     print('Generate sym pub key')
     with open('key_forfile.txt', 'wb') as output_file:
@@ -48,6 +49,23 @@ def send(ip, port):
             # If connection is refused, wait 1 second and try again
             time.sleep(1)
             continue
+
+    # SEND KEY FOR FILE
+    print('SEND ASYM KEY')
+    connected = False
+    while not connected:
+        try:
+            with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
+                s.connect((ip, key_port))
+                connected = True
+                with open('key_forfile.enc', 'rb') as f:
+                    data = f.read()
+                    s.sendall(data)
+        except ConnectionRefusedError:
+            # If connection is refused, wait 1 second and try again
+            time.sleep(1)
+            continue
+            
             
     # SEND SYMMETRIC CRYPTED FILE
     print('SEND CRYPTED FILE')
@@ -70,4 +88,4 @@ def send(ip, port):
 ip = '10.0.0.27'
 key_port = 8080
 file_port = 8081
-send(ip, key_port,file_port)
+send(ip, key_port, file_port)
