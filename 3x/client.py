@@ -54,7 +54,7 @@ def send(ip, port, filename):
             with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
                 s.connect((ip, port))
                 connected = True
-                with open('filename', 'rb') as f:
+                with open(filename, 'rb') as f:
                     data = f.read()
                     s.sendall(data)
         except ConnectionRefusedError as e:
