@@ -35,19 +35,35 @@ def send(ip, port):
     
     # SEND ASYMETRIC PUBLIC KEY
     print('SEND ASYM KEY')
-    with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
-        s.connect((ip, port))
-        with open('public_key_forkey.pem', 'rb') as f:
-            data = f.read()
-            s.sendall(data)
-    
+    connected = False
+    while not connected:
+        try:
+            with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
+                s.connect((ip, port))
+                connected = True
+                with open('public_key_forkey.pem', 'rb') as f:
+                    data = f.read()
+                    s.sendall(data)
+        except ConnectionRefusedError:
+            # If connection is refused, wait 1 second and try again
+            time.sleep(1)
+            continue
+            
     # SEND SYMMETRIC CRYPTED FILE
     print('SEND CRYPTED FILE')
-    with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
-        s.connect((ip, port))
-        with open('raw.enc', 'rb') as f:
-            data = f.read()
-            s.sendall(data)
+    connected = False
+    while not connected:
+        try:    
+            with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
+                s.connect((ip, port))
+                connected = True
+                with open('raw.enc', 'rb') as f:
+                    data = f.read()
+                    s.sendall(data)
+        except ConnectionRefusedError:
+            # If connection is refused, wait 1 second and try again
+            time.sleep(1)
+            continue
 
 # SERVER : Parrot   : 10.0.0.27
 # CLIENT : RUNBUNTU : 10.0.0.26

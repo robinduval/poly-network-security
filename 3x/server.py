@@ -2,6 +2,7 @@
 
 import os
 import socket
+import time
 import subprocess
 
 # Chemin d'accès aux fichiers du serveur et du client
@@ -13,35 +14,48 @@ import subprocess
 
 def receive(ip, port):
     # RECEIVE ASYMETRIC PUBLIC KEY
-    print('RECEIVE CRYPTED KEY')
-    with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
-        s.bind((ip, port))
-        s.listen()
-        print('Listen')
-        conn, addr = s.accept()
-        with conn:
-            with open('public_key_forkey.pem', 'wb') as f:
-                while True:
-                    data = conn.recv(1024)
-                    if not data:
-                        break
-                    f.write(data)
-
-    time.sleep(10)
+    connected = False
+    while not connected:
+        try:
+            with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
+                s.bind((ip, port))
+                s.listen()
+                print('Listen Key')
+                conn, addr = s.accept()
+                connected = True
+                with conn:
+                    with open('public_key_forkey.pem', 'wb') as f:
+                        while True:
+                            data = conn.recv(1024)
+                            if not data:
+                                break
+                            f.write(data)
+        except ConnectionRefusedError:
+            # If connection is refused, wait 1 second and try again
+            time.sleep(1)
+            continue
     
     # RECEIVE SYMMETRIC CRYPTED FILE
-    print('RECEIVE CRYPTED FILE')
-    with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
-        s.bind((ip, port))
-        s.listen()
-        conn, addr = s.accept()
-        with conn:
-            with open('raw.enc', 'wb') as f:
-                while True:
-                    data = conn.recv(1024)
-                    if not data:
-                        break
-                    f.write(data)
+    connected = False
+    while not connected:
+        try:
+            with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
+                s.bind((ip, port))
+                s.listen()
+                print('Listen File')
+                conn, addr = s.accept()
+                connected = True
+                with conn:
+                    with open('raw.enc', 'wb') as f:
+                        while True:
+                            data = conn.recv(1024)
+                            if not data:
+                                break
+                            f.write(data)
+        except ConnectionRefusedError:
+            # If connection is refused, wait 1 second and try again
+            time.sleep(1)
+            continue
     
     # DECRYPT ASYMETRIC PUBLIC KEY FROM CLIENT
     subprocess.run(['openssl', 'enc', '-d', '-aes-256-cbc', '-salt', '-in', 'key_forfile.enc', '-out', 'key_forfile.txt.dec', '-pass', 'file:public_key_forkey.pem', '-pbkdf2'], check=True)
