@@ -5,88 +5,72 @@ import socket
 import time
 import subprocess
 
-# Chemin d'accès aux fichiers du serveur et du client
-SERVER_DIR = "server_files/"
-CLIENT_DIR = "client_files/"
-FILE_TO_SEND = "client_files/raw.txt"
+def bind_and_listen(ip, port):
+    # Create a socket object
+    s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    
+    # Bind the socket to the specified IP address and port
+    s.bind((ip, port))
+    
+    # Listen for incoming connections
+    s.listen()
+    print(f"Listening on {ip}:{port}")
+    
+    # Accept the connection and return the connection object and address
+    conn, addr = s.accept()
+    print(f"Connected to {addr[0]}:{addr[1]}")
+    
+    return s, conn
 
-def send(ip, key_port, asym_key_port, file_port):
-    # Generate a public key FOR SYMMETRIC CRYPT
-    print('Generate sym pub key')
-    with open('key_forfile.txt', 'wb') as output_file:
-        subprocess.run(['openssl', 'rand', '-hex', '32'], stdout=output_file, check=True)
-
-    # SYMMETRIC CRYPT
-    print('Encrypt the file')
-    subprocess.run(['openssl', 'enc', '-aes-256-cbc', '-salt', '-in', FILE_TO_SEND, '-out', 'raw.enc', '-pass', 'file:key_forfile.txt', '-pbkdf2'], check=True)
-    
-    # ASYMMETRIC CRYPT PUBLIC KEY
-    
-    ## GENERATE PRIVATE
-    print('Generate asym priv key')
-    subprocess.run(['openssl', 'genrsa', '-out', 'private_key_forkey.pem', '2048'], check=True)
-    
-    ## EXTRACT PUBLIC
-    print('Extract asym pub key')
-    subprocess.run(['openssl', 'rsa', '-in', 'private_key_forkey.pem', '-pubout', '-out', 'public_key_forkey.pem'], check=True)
-    
-    ## Encrypt the symmetric key with the public asymmetric key
-    print('Encrypt key')
-    subprocess.run(['openssl', 'enc', '-aes-256-cbc', '-salt', '-in', 'key_forfile.txt', '-out', 'key_forfile.enc', '-pass', 'file:public_key_forkey.pem', '-pbkdf2'], check=True)
-    
-    # SEND ASYMETRIC PUBLIC KEY
-    print('SEND ASYM KEY')
+def receive(ip, port, filename):
+    # Receive asymmetric public key
     connected = False
-    while not connected:
-        try:
-            with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
-                s.connect((ip, key_port))
+        while not connected:
+            try:
+                s, conn = bind_and_listen(ip, port)
                 connected = True
-                with open('public_key_forkey.pem', 'rb') as f:
-                    data = f.read()
-                    s.sendall(data)
-        except ConnectionRefusedError:
-            # If connection is refused, wait 1 second and try again
-            time.sleep(1)
-            continue
+                with conn:
+                    with open(filename, 'wb') as f:
+                        while True:
+                            data = conn.recv(1024)
+                            if not data:
+                                break
+                            f.write(data)
+            except ConnectionRefusedError as e:
+                # If connection is refused, wait 1 second and try again
+                print(f"Connection refused to RECEIVED wait 1 sec {filename} : {e}")
+                time.sleep(1)
+                continue
+                # Ferme la connexion avec le client
+            except Exception as e:
+                print(f"Error Receiving {filename} : {e}")
+                s.close()
+                os._exit(1)
 
-    # SEND KEY FOR FILE
-    print('SEND ASYM KEY')
-    connected = False
-    while not connected:
-        try:
-            with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
-                s.connect((ip, asym_key_port))
-                connected = True
-                with open('key_forfile.enc', 'rb') as f:
-                    data = f.read()
-                    s.sendall(data)
-        except ConnectionRefusedError:
-            # If connection is refused, wait 1 second and try again
-            time.sleep(1)
-            continue
-            
-            
-    # SEND SYMMETRIC CRYPTED FILE
-    print('SEND CRYPTED FILE')
+def send(ip, port, filename):
     connected = False
     while not connected:
         try:    
             with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
-                s.connect((ip, file_port))
+                s.connect((ip, port))
                 connected = True
-                with open('raw.enc', 'rb') as f:
+                with open('filename', 'rb') as f:
                     data = f.read()
                     s.sendall(data)
         except ConnectionRefusedError:
             # If connection is refused, wait 1 second and try again
+            print(f"Connection refused to SEND wait 1 sec {filename} : {e}")
             time.sleep(1)
             continue
 
+
 # SERVER : Parrot   : 10.0.0.27
 # CLIENT : RUNBUNTU : 10.0.0.26
-ip = '10.0.0.27'
-key_port = 8080
-asym_key_port = 8081
-file_port = 8082
-send(ip, key_port, asym_key_port, file_port)
+# MAIN IS HERE // SERVER
+client_ip = '10.0.0.26'
+server_ip = '10.0.0.27'
+serverpubkey_port = 8080
+clientsymkey_port = 8081
+clientendata_port = 8082
+
+receive(client_ip, clientsymkey_port, 'server_public_key_forkey.pem')

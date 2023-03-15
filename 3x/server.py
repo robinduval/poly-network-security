@@ -5,107 +5,83 @@ import socket
 import time
 import subprocess
 
-# Chemin d'accès aux fichiers du serveur et du client
-SERVER_DIR = "server_files/"
-CLIENT_DIR = "client_files/"
+def bind_and_listen(ip, port):
+    # Create a socket object
+    s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    
+    # Bind the socket to the specified IP address and port
+    s.bind((ip, port))
+    
+    # Listen for incoming connections
+    s.listen()
+    print(f"Listening on {ip}:{port}")
+    
+    # Accept the connection and return the connection object and address
+    conn, addr = s.accept()
+    print(f"Connected to {addr[0]}:{addr[1]}")
+    
+    return s, conn
 
-import socket
-import subprocess
-
-def receive(ip, key_port, asym_key_port, file_port):
-    # RECEIVE ASYMETRIC PUBLIC KEY
+def receive(ip, port, filename):
+    # Receive asymmetric public key
     connected = False
-    while not connected:
-        try:
-            with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
-                s.bind((ip, key_port))
-                s.listen()
-                print('Listen Key')
-                conn, addr = s.accept()
+        while not connected:
+            try:
+                s, conn = bind_and_listen(ip, port)
                 connected = True
                 with conn:
-                    with open('public_key_forkey.pem', 'wb') as f:
+                    with open(filename, 'wb') as f:
                         while True:
                             data = conn.recv(1024)
                             if not data:
                                 break
                             f.write(data)
-        except ConnectionRefusedError:
-            # If connection is refused, wait 1 second and try again
-            time.sleep(1)
-            continue
-    # Ferme la connexion avec le client
-    s.close()
-    
-    # RECEIVE KEY FOR FILE
+            except ConnectionRefusedError as e:
+                # If connection is refused, wait 1 second and try again
+                print(f"Connection refused to RECEIVED wait 1 sec {filename} : {e}")
+                time.sleep(1)
+                continue
+                # Ferme la connexion avec le client
+            except Exception as e:
+                print(f"Error Receiving {filename} : {e}")
+                s.close()
+                os._exit(1)
+
+def send(ip, port, filename):
     connected = False
     while not connected:
-        try:
+        try:    
             with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
-                s.bind((ip, asym_key_port))
-                s.listen()
-                print('Listen Key For File')
-                conn, addr = s.accept()
+                s.connect((ip, port))
                 connected = True
-                with conn:
-                    with open('key_forfile.enc', 'wb') as f:
-                        while True:
-                            data = conn.recv(1024)
-                            if not data:
-                                break
-                            f.write(data)
+                with open('filename', 'rb') as f:
+                    data = f.read()
+                    s.sendall(data)
         except ConnectionRefusedError:
             # If connection is refused, wait 1 second and try again
+            print(f"Connection refused to SEND wait 1 sec {filename} : {e}")
             time.sleep(1)
             continue
-    # Ferme la connexion avec le client
-    s.close()
-
-    # RECEIVE SYMMETRIC CRYPTED FILE
-    connected = False
-    while not connected:
-        try:
-            with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
-                s.bind((ip, file_port))
-                s.listen()
-                print('Listen File')
-                conn, addr = s.accept()
-                connected = True
-                with conn:
-                    with open('raw.enc', 'wb') as f:
-                        while True:
-                            data = conn.recv(1024)
-                            if not data:
-                                break
-                            f.write(data)
-        except ConnectionRefusedError:
-            # If connection is refused, wait 1 second and try again
-            time.sleep(1)
-            continue
-
-    # Ferme la connexion avec le client
-    s.close()
-    
-    # DECRYPT ASYMETRIC PUBLIC KEY FROM CLIENT
-    # openssl enc -d -aes-256-cbc -salt -in key_forfile.enc -out key_forfile.txt.dec -pass file:public_key_forkey.pem -pbkdf2
-    decrypt_key_process = subprocess.run(['openssl', 'enc', '-d', '-aes-256-cbc', '-salt', '-in', 'key_forfile.enc', '-out', 'key_forfile.txt.dec', '-pass', 'file:public_key_forkey.pem', '-pbkdf2'], check=True)
-    if decrypt_key_process.returncode != 0:
-        print(f"An error occurred while decrypting the symmetric key: {decrypt_key_process.stderr.decode('utf-8')}")
-        os._exit(1)  # Stop the program
-
-    # DECRYPT FILE FROM CLIENT WITH DECRYPTED KEY
-    # openssl enc -d -aes-256-cbc -salt -in raw.enc -out raw.dec -pass file:key_forfile.txt -pbkdf2
-    decrypt_file_process = subprocess.run(['openssl', 'enc', '-d', '-aes-256-cbc', '-salt', '-in', 'raw.enc', '-out', 'raw.dec', '-pass', 'file:key_forfile.txt.dec', '-pbkdf2'], check=True)
-    
-    if decrypt_file_process.returncode != 0:
-        print(f"An error occurred while decrypting the symmetric key: {decrypt_file_process.stderr.decode('utf-8')}")
-        os._exit(1)  # Stop the program
-
 
 # SERVER : Parrot   : 10.0.0.27
 # CLIENT : RUNBUNTU : 10.0.0.26
-ip = '10.0.0.27'
-key_port = 8080
-asym_key_port = 8081
-file_port = 8082
-receive(ip, key_port, asym_key_port, file_port)
+# MAIN IS HERE // SERVER
+client_ip = '10.0.0.26'
+server_ip = '10.0.0.27'
+serverpubkey_port = 8080
+clientsymkey_port = 8081
+clientendata_port = 8082
+
+print("Generate Private Key")
+generate_private_key = subprocess.run(['openssl', 'genrsa', '-out', 'server_private_key_forkey.pem', '2048'], check=True)
+if generate_private_key.returncode != 0:
+    print(f"An error occurred while generate_private_key: {generate_private_key.stderr.decode('utf-8')}")
+    os._exit(1)  # Stop the program
+
+print("Extract Public Key")
+extract_public_key = subprocess.run(['openssl', 'rsa', '-in', 'server_private_key_forkey.pem', '-pubout', '-out', 'server_public_key_forkey.pem'], check=True)
+if extract_public_key.returncode != 0:
+    print(f"An error occurred while extract_public_key: {extract_public_key.stderr.decode('utf-8')}")
+    os._exit(1)  # Stop the program
+  
+send(client_ip, clientsymkey_port, 'server_public_key_forkey.pem')
