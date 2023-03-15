@@ -11,8 +11,9 @@ FILE_TO_SEND = "client_files/raw.txt"
 
 def send(ip, port):
     # Generate a public key FOR SYMMETRIC CRYPT
-    subprocess.run(['openssl', 'rand', '-hex', '32', '>', 'key_forfile.txt'], check=True)
-    
+    with open('key_forfile.txt', 'wb') as output_file:
+        subprocess.run(['openssl', 'rand', '-hex', '32'], stdout=output_file, check=True)
+
     # SYMMETRIC CRYPT
     subprocess.run(['openssl', 'enc', '-aes-256-cbc', '-salt', '-in', FILE_TO_SEND, '-out', 'raw.enc', '-pass', 'file:key_forfile.txt', '-pbkdf2'], check=True)
     
