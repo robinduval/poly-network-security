@@ -10,7 +10,7 @@ SERVER_DIR = "server_files/"
 CLIENT_DIR = "client_files/"
 FILE_TO_SEND = "client_files/raw.txt"
 
-def send(ip, key_port, file_port):
+def send(ip, key_port, asym_key_port, file_port):
     # Generate a public key FOR SYMMETRIC CRYPT
     print('Generate sym pub key')
     with open('key_forfile.txt', 'wb') as output_file:
@@ -56,7 +56,7 @@ def send(ip, key_port, file_port):
     while not connected:
         try:
             with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
-                s.connect((ip, key_port))
+                s.connect((ip, asym_key_port))
                 connected = True
                 with open('key_forfile.enc', 'rb') as f:
                     data = f.read()
@@ -87,5 +87,6 @@ def send(ip, key_port, file_port):
 # CLIENT : RUNBUNTU : 10.0.0.26
 ip = '10.0.0.27'
 key_port = 8080
-file_port = 8081
-send(ip, key_port, file_port)
+asym_key_port = 8081
+file_port = 8082
+send(ip, key_port, asym_key_port, file_port)
