@@ -1,0 +1,26 @@
+
+# CLIENT // Generate a public key FOR SYMMETRIC CRYPT
+openssl rand -hex 32 > key_forfile.txt
+
+# CLIENT // SYMMETRIC CRYPT
+openssl enc -aes-256-cbc -salt -in raw.txt -out raw.enc -pass file:key_forfile.txt -pbkdf2
+
+# CLIENT // ASYMETRIC CRYPT PUBLIC KEY
+#           GENERATE PRIVATE
+openssl genrsa -out private_key_forkey.pem 2048 
+#           EXTRACT PUBLIC
+openssl rsa -in private_key_forkey.pem -pubout -out public_key_forkey.pem
+#           Encrypt the key
+openssl enc -aes-256-cbc -salt -in key_forfile.txt -out key_forfile.enc -pass file:public_key_forkey.pem -pbkdf2
+
+
+# CLIENT // SEND ASYMETRIC PUBLIC KEY
+# CLIENT // SEND SYMMETRIC CRYPTED FILE
+
+# SERVER // RECEIVE ASYMETRIC PUBLIC KEY FROM CLIENT
+# SERVER // RECEIVE SYLLETRIC CRYPTED FILE
+
+# SERVER // DECRYPT ASYMETRIC PUBLIC KEY FROM CLIENT
+
+# SERVER // DECRYPT FILE FROM CLIENT WITH DECRYPTED KEY
+#openssl enc -d -aes-256-cbc -salt -in raw.enc -out raw.dec -pass file:key_forfile.txt -pbkdf2
