@@ -13,6 +13,7 @@ import subprocess
 
 def receive(ip, port):
     # RECEIVE ASYMETRIC PUBLIC KEY
+    print('RECEIVE CRYPTED KEY')
     with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
         s.bind((ip, port))
         s.listen()
@@ -26,6 +27,7 @@ def receive(ip, port):
                     f.write(data)
     
     # RECEIVE SYMMETRIC CRYPTED FILE
+    print('RECEIVE CRYPTED FILE')
     with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
         s.bind((ip, port))
         s.listen()
