@@ -39,7 +39,7 @@ def send(ip, port):
     while not connected:
         try:
             with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
-                s.connect((ip, port))
+                s.connect((ip, key_port))
                 connected = True
                 with open('public_key_forkey.pem', 'rb') as f:
                     data = f.read()
@@ -55,7 +55,7 @@ def send(ip, port):
     while not connected:
         try:    
             with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
-                s.connect((ip, port))
+                s.connect((ip, file_port))
                 connected = True
                 with open('raw.enc', 'rb') as f:
                     data = f.read()
@@ -67,6 +67,6 @@ def send(ip, port):
 
 # SERVER : Parrot   : 10.0.0.27
 # CLIENT : RUNBUNTU : 10.0.0.26
-server_ip = '10.0.0.27'
-port = 8080
-send(server_ip, port)
+key_port = 8080
+file_port = 8081
+send(client_ip, key_port, file_port)
