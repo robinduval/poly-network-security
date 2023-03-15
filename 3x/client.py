@@ -4,12 +4,17 @@ import os
 import socket
 import subprocess
 
+# Chemin d'accès aux fichiers du serveur et du client
+SERVER_DIR = "server_files/"
+CLIENT_DIR = "client_files/"
+FILE_TO_SEND = "client_files/raw.txt"
+
 def send(ip, port):
     # Generate a public key FOR SYMMETRIC CRYPT
     subprocess.run(['openssl', 'rand', '-hex', '32', '>', 'key_forfile.txt'], check=True)
     
     # SYMMETRIC CRYPT
-    subprocess.run(['openssl', 'enc', '-aes-256-cbc', '-salt', '-in', 'raw.txt', '-out', 'raw.enc', '-pass', 'file:key_forfile.txt', '-pbkdf2'], check=True)
+    subprocess.run(['openssl', 'enc', '-aes-256-cbc', '-salt', '-in', FILE_TO_SEND, '-out', 'raw.enc', '-pass', 'file:key_forfile.txt', '-pbkdf2'], check=True)
     
     # ASYMMETRIC CRYPT PUBLIC KEY
     # GENERATE PRIVATE
@@ -37,4 +42,4 @@ def send(ip, port):
 # CLIENT : RUNBUNTU : 10.0.0.26
 server_ip = '10.0.0.27'
 port = 8080
-send_file(server_ip, port)
+send(server_ip, port)
