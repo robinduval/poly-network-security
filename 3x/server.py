@@ -71,7 +71,7 @@ def receive(ip, key_port, file_port):
 
 # SERVER : Parrot   : 10.0.0.27
 # CLIENT : RUNBUNTU : 10.0.0.26
-client_ip = '10.0.0.27'
+ip = '10.0.0.27'
 key_port = 8080
 file_port = 8081
-receive(client_ip, key_port,file_port)
+receive(ip, key_port,file_port)

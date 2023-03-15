@@ -67,6 +67,7 @@ def send(ip, port):
 
 # SERVER : Parrot   : 10.0.0.27
 # CLIENT : RUNBUNTU : 10.0.0.26
+ip = '10.0.0.27'
 key_port = 8080
 file_port = 8081
-send(client_ip, key_port, file_port)
+send(ip, key_port,file_port)
