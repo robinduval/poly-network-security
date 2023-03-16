@@ -17,8 +17,6 @@ clientsymkey_port = 8081
 clientendata_port = 8082
 clientsignat_port = 8083
 
-FILE_TO_SEND = "tmp/raw.txt"
-
 receive(client_ip, serverpubkey_port, 'public.pem')
 
 print('Generate sym pub key')
@@ -29,10 +27,23 @@ if generate_sym_pub.returncode != 0:
     os._exit(1)  # Stop the program
 
 print('Sign the file')
-os.system('cat tmp/raw.txt | openssl dgst -sha256 -sign client_key.txt -out signature.bin')
+# read raw data from file
+with open('raw.txt', 'rb') as f:
+    raw_data = f.read()
+
+# run openssl command to verify signature
+openssl_command = ['openssl', 'dgst', '-sha256', '-sign', 'client_key.txt', '-signature', 'signature.bin']
+
+try:
+    subprocess.run(openssl_command, input=raw_data, check=True)
+    print('Signature has been done!')
+except subprocess.CalledProcessError:
+    print('Signature has failed.')
+
+
 
 print('Encrypt the file with the Client Key')
-encrypt_the_key = subprocess.run(['openssl', 'enc', '-aes-256-cbc', '-salt', '-in', FILE_TO_SEND, '-out', 'raw.enc', '-pass', 'file:client_key.txt', '-pbkdf2'], check=True)
+encrypt_the_key = subprocess.run(['openssl', 'enc', '-aes-256-cbc', '-salt', '-in', 'raw.txt', '-out', 'raw.enc', '-pass', 'file:client_key.txt', '-pbkdf2'], check=True)
 
 print('Encrypt the Client Key with the Server Public Key')
 encrypt_the_key = subprocess.run(['openssl', 'enc', '-aes-256-cbc', '-salt', '-in', 'client_key.txt', '-out', 'client_key.enc', '-pass', 'file:public.pem', '-pbkdf2'], check=True)
@@ -41,4 +52,4 @@ send(server_ip, clientsymkey_port, 'client_key.enc')
   
 send(server_ip, clientendata_port, 'raw.enc')
   
-send(server_ip, clientsignat_port, 'signature.bin')
+send(server_ip, clientsignat_port, 'signature.bin')./
