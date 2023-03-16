@@ -6,3 +6,6 @@ openssl rsa -in private.pem -pubout -out public.pem
 
 #Sign a text
 cat raw.txt | openssl dgst -sha256 -sign private.pem -out signature.bin
+
+#Verify
+cat identity.txt | openssl dgst -sha256 -sign tmp/private.pem -out signature.bin
