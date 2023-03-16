@@ -43,7 +43,7 @@ print('Sign the file')
 # read raw data from file
 with open('raw.txt', 'rb') as f:
     raw_data = f.read()
-openssl_command = ['openssl', 'dgst', '-sha256', '-sign', 'client_private.pem', '-signature', 'signature.bin']
+openssl_command = ['openssl', 'dgst', '-sha256', '-sign', 'client_private.pem', '-out', 'signature.bin']
 try:
     subprocess.run(openssl_command, input=raw_data, check=True)
     print('Signature has been done!')
