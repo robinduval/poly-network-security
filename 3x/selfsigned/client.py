@@ -36,7 +36,7 @@ print('Generate Client Key')
 with open('client_key.txt', 'wb') as output_file:
     generate_sym_pub = subprocess.run(['openssl', 'rand', '-hex', '32'], stdout=output_file, check=True)
 if generate_sym_pub.returncode != 0:
-    print(f"An error occurred while generate_sym_pub: {.stderr.decode('utf-8')}")
+    print(f"An error occurred while generate_sym_pub: {generate_sym_pub.stderr.decode('utf-8')}")
     os._exit(1)  # Stop the program
 
 print('Sign the file')
