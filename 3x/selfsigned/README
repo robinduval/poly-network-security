@@ -1,11 +1,11 @@
-# SERVER // ASYMETRIC CRYPT PUBLIC KEY
-#           GENERATE PRIVATE
+#GENERATE PRIVATE
 openssl genrsa -out private.pem 2048 
-#           EXTRACT PUBLIC
+
+#EXTRACT PUBLIC
 openssl rsa -in private.pem -pubout -out public.pem
 
-#Sign a text
+# SIGN With Private
 cat raw.txt | openssl dgst -sha256 -sign private.pem -out signature.bin
 
-#Verify
-cat identity.txt | openssl dgst -sha256 -sign tmp/private.pem -out signature.bin
+# VERIFY With Public
+cat raw.txt | openssl dgst -sha256 -verify public.pem -signature signature.bin
