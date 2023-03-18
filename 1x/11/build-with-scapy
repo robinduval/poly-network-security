@@ -1,0 +1,4 @@
+send(IP(src="10.0.0.27", dst="10.0.0.26") / TCP(sport=80, dport=80, flags="S"))
+send(IP(dst="10.0.0.27")/UDP(dport=53)/DNS(rd=1,qd=DNSQR(qname="www.perdu.com")))
+send(IP(dst="8.8.8.8")/ICMP())
+

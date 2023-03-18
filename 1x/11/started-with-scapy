@@ -1,0 +1,45 @@
+Frame 80898: 34 bytes on wire (272 bits), 34 bytes captured (272 bits) on interface enp0s3, id 0
+    Interface id: 0 (enp0s3)
+        Interface name: enp0s3
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Mar 19, 2023 00:04:46.668103416 CET
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1679180686.668103416 seconds
+    [Time delta from previous captured frame: 0.011382824 seconds]
+    [Time delta from previous displayed frame: 0.000000000 seconds]
+    [Time since reference or first frame: 421.725711937 seconds]
+    Frame Number: 80898
+    Frame Length: 34 bytes (272 bits)
+    Capture Length: 34 bytes (272 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip]
+Ethernet II, Src: PcsCompu_0b:2d:05 (08:00:27:0b:2d:05), Dst: Netgear_0f:9f:8b (9c:c9:eb:0f:9f:8b)
+    Destination: Netgear_0f:9f:8b (9c:c9:eb:0f:9f:8b)
+        Address: Netgear_0f:9f:8b (9c:c9:eb:0f:9f:8b)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: PcsCompu_0b:2d:05 (08:00:27:0b:2d:05)
+        Address: PcsCompu_0b:2d:05 (08:00:27:0b:2d:05)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 10.0.0.27, Dst: 8.8.8.8
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 20
+    Identification: 0x0001 (1)
+    Flags: 0x00
+        0... .... = Reserved bit: Not set
+        .0.. .... = Don't fragment: Not set
+        ..0. .... = More fragments: Not set
+    Fragment Offset: 0
+    Time to Live: 64
+    Protocol: IPv6 Hop-by-Hop Option (0)
+    Header Checksum: 0x60bf [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 10.0.0.27
+    Destination Address: 8.8.8.8
