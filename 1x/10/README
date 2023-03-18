@@ -1,0 +1,10 @@
+#CARTE RESEAU en BRIDGE (Wireshark)
+   ip 10.0.0.27
+Ethernet enp0s3:
+   ether 08:00:27:0b:2d:05
+
+Wifi     wlx00c0cab1b7e3
+   ether ee:b2:45:5e:db:60
+
+#Victime
+   ip 10.0.0.26

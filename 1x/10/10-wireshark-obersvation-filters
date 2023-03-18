@@ -1,0 +1,18 @@
+*Find the traffic exchanged with Google:*
+- Filter the traffic in Wireshark with the IP address of Google (for example, 172.217.167.196)
+- Observe the traffic exchanged with Google, including DNS queries, TCP connections, and HTTP requests and responses.
+
+*DNS queries emitted by your computer:*
+-Filter the traffic in Wireshark with the filter "dns"
+-Observe the DNS queries and responses exchanged between your computer and the DNS server.
+
+*Traffic coming from another VM*
+- Send queries from the other VM (otherIP address) and filter the traffic in Wireshark with that IP address
+- Observe the traffic exchanged with the peer's computer, including DNS queries, TCP connections, and HTTP requests and responses.
+- Compare the observed traffic with the traffic captured by running Wireshark on the peer's laptop.
+
+*Inspect traffic from an unsecure website*
+- Browse to an unsecure http://www.perdu.com
+- Observe the HTTP requests and responses exchanged with the website, including the GET request and the HTML response.
+- Notice that the traffic is transmitted in plain text and can be intercepted and read by any network intermediary,
+  making it susceptible to eavesdropping and attacks like man-in-the-middle.

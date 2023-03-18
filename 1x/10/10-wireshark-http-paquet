@@ -1,0 +1,157 @@
+*Important Information*
+The packet contains 405 bytes (3240 bits) and has captured from the interface named *enp0s3* at the arrival time of Mar 18, 2023, 23:44:53.533585614 CET.
+The packet contains Ethernet II and IPv4 headers, followed by Transmission Control Protocol (TCP) header and Hypertext Transfer Protocol (HTTP) payload.
+The source MAC address is 08:00:27:0b:2d:05 and the destination MAC address is 9c:c9:eb:0f:9f:8b. 
+The source IP address is 10.0.0.27, and the destination IP address is 104.21.5.178.
+
+The TCP source port is 47418, and the destination port is 80, which is the default port for HTTP traffic. 
+The packet contains the PSH and ACK flags, indicating that it carries the HTTP payload and is acknowledging the receipt of the previous packet.
+
+The packet's payload carries 339 bytes of HTTP data. 
+The HTTP request is not visible in this packet capture. 
+However, the Timestamps option is present in the TCP header, indicating that the sender and receiver are using TCP timestamps for congestion control.
+
+*Updatable information by a third party*
+IP/Mac address of the source
+GET/POST Values (and Keys)
+
+*Short Version*
+
+Frame 663: 405 bytes on wire (3240 bits), 405 bytes captured (3240 bits) on interface enp0s3, id 0
+Ethernet II, Src: PcsCompu_0b:2d:05 (08:00:27:0b:2d:05), Dst: Netgear_0f:9f:8b (9c:c9:eb:0f:9f:8b)
+Internet Protocol Version 4, Src: 10.0.0.27, Dst: 104.21.5.178
+Transmission Control Protocol, Src Port: 47418, Dst Port: 80, Seq: 1, Ack: 1, Len: 339
+Hypertext Transfer Protocol
+    GET / HTTP/1.1\r\n
+    Host: perdu.com\r\n
+    User-Agent: Mozilla/5.0 (Windows NT 10.0; rv:102.0) Gecko/20100101 Firefox/102.0\r\n
+    Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8\r\n
+    Accept-Language: en-US,en;q=0.5\r\n
+    Accept-Encoding: gzip, deflate\r\n
+    DNT: 1\r\n
+    Connection: keep-alive\r\n
+    Upgrade-Insecure-Requests: 1\r\n
+    \r\n
+    [Full request URI: http://perdu.com/]
+    [HTTP request 1/2]
+    [Response in frame: 665]
+    [Next request in frame: 671]
+
+*Expanded Version*
+
+Frame 663: 405 bytes on wire (3240 bits), 405 bytes captured (3240 bits) on interface enp0s3, id 0
+    Interface id: 0 (enp0s3)
+        Interface name: enp0s3
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Mar 18, 2023 23:44:53.533585614 CET
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1679179493.533585614 seconds
+    [Time delta from previous captured frame: 0.000124802 seconds]
+    [Time delta from previous displayed frame: 0.816324856 seconds]
+    [Time since reference or first frame: 6.968817989 seconds]
+    Frame Number: 663
+    Frame Length: 405 bytes (3240 bits)
+    Capture Length: 405 bytes (3240 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:http]
+    [Coloring Rule Name: HTTP]
+    [Coloring Rule String: http || tcp.port == 80 || http2]
+Ethernet II, Src: PcsCompu_0b:2d:05 (08:00:27:0b:2d:05), Dst: Netgear_0f:9f:8b (9c:c9:eb:0f:9f:8b)
+    Destination: Netgear_0f:9f:8b (9c:c9:eb:0f:9f:8b)
+        Address: Netgear_0f:9f:8b (9c:c9:eb:0f:9f:8b)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: PcsCompu_0b:2d:05 (08:00:27:0b:2d:05)
+        Address: PcsCompu_0b:2d:05 (08:00:27:0b:2d:05)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 10.0.0.27, Dst: 104.21.5.178
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 391
+    Identification: 0xa50b (42251)
+    Flags: 0x40, Don't fragment
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    Fragment Offset: 0
+    Time to Live: 64
+    Protocol: TCP (6)
+    Header Checksum: 0x1c84 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 10.0.0.27
+    Destination Address: 104.21.5.178
+Transmission Control Protocol, Src Port: 47418, Dst Port: 80, Seq: 1, Ack: 1, Len: 339
+    Source Port: 47418
+    Destination Port: 80
+    [Stream index: 17]
+    [TCP Segment Len: 339]
+    Sequence Number: 1    (relative sequence number)
+    Sequence Number (raw): 1695848604
+    [Next Sequence Number: 340    (relative sequence number)]
+    Acknowledgment Number: 1    (relative ack number)
+    Acknowledgment number (raw): 2591813931
+    1000 .... = Header Length: 32 bytes (8)
+    Flags: 0x018 (PSH, ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Nonce: Not set
+        .... 0... .... = Congestion Window Reduced (CWR): Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 1... = Push: Set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+        [TCP Flags: ·······AP···]
+    Window: 502
+    [Calculated window size: 64256]
+    [Window size scaling factor: 128]
+    Checksum: 0x795b [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+        TCP Option - No-Operation (NOP)
+            Kind: No-Operation (1)
+        TCP Option - No-Operation (NOP)
+            Kind: No-Operation (1)
+        TCP Option - Timestamps: TSval 1114312882, TSecr 3001189574
+            Kind: Time Stamp Option (8)
+            Length: 10
+            Timestamp value: 1114312882
+            Timestamp echo reply: 3001189574
+    [SEQ/ACK analysis]
+        [iRTT: 0.005479947 seconds]
+        [Bytes in flight: 339]
+        [Bytes sent since last PSH flag: 339]
+    [Timestamps]
+        [Time since first frame in this TCP stream: 0.005604749 seconds]
+        [Time since previous frame in this TCP stream: 0.000124802 seconds]
+    TCP payload (339 bytes)
+Hypertext Transfer Protocol
+    GET / HTTP/1.1\r\n
+        [Expert Info (Chat/Sequence): GET / HTTP/1.1\r\n]
+            [GET / HTTP/1.1\r\n]
+            [Severity level: Chat]
+            [Group: Sequence]
+        Request Method: GET
+        Request URI: /
+        Request Version: HTTP/1.1
+    Host: perdu.com\r\n
+    User-Agent: Mozilla/5.0 (Windows NT 10.0; rv:102.0) Gecko/20100101 Firefox/102.0\r\n
+    Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8\r\n
+    Accept-Language: en-US,en;q=0.5\r\n
+    Accept-Encoding: gzip, deflate\r\n
+    DNT: 1\r\n
+    Connection: keep-alive\r\n
+    Upgrade-Insecure-Requests: 1\r\n
+    \r\n
+    [Full request URI: http://perdu.com/]
+    [HTTP request 1/2]
+    [Response in frame: 665]
+    [Next request in frame: 671]

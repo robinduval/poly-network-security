@@ -1,0 +1,137 @@
+HTML Form URL Encoded: application/x-www-form-urlencoded
+    Form item: "login" = "COUCOU"
+        Key: login
+        Value: COUCOU
+    Form item: "password" = "Secret"
+        Key: password
+        Value: Secret
+
+2222	78.433338123	10.0.0.26	159.65.58.222	HTTP	638	POST /exed/login.php HTTP/1.1  (application/x-www-form-urlencoded)
+
+Frame 2222: 638 bytes on wire (5104 bits), 638 bytes captured (5104 bits) on interface enp0s3, id 0
+    Interface id: 0 (enp0s3)
+        Interface name: enp0s3
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Mar 18, 2023 23:59:03.375729602 CET
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1679180343.375729602 seconds
+    [Time delta from previous captured frame: 0.000131280 seconds]
+    [Time delta from previous displayed frame: 7.882722348 seconds]
+    [Time since reference or first frame: 78.433338123 seconds]
+    Frame Number: 2222
+    Frame Length: 638 bytes (5104 bits)
+    Capture Length: 638 bytes (5104 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:http:urlencoded-form]
+    [Coloring Rule Name: HTTP]
+    [Coloring Rule String: http || tcp.port == 80 || http2]
+Ethernet II, Src: PcsCompu_15:c4:72 (08:00:27:15:c4:72), Dst: Netgear_0f:9f:8b (9c:c9:eb:0f:9f:8b)
+    Destination: Netgear_0f:9f:8b (9c:c9:eb:0f:9f:8b)
+        Address: Netgear_0f:9f:8b (9c:c9:eb:0f:9f:8b)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: PcsCompu_15:c4:72 (08:00:27:15:c4:72)
+        Address: PcsCompu_15:c4:72 (08:00:27:15:c4:72)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 10.0.0.26, Dst: 159.65.58.222
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 624
+    Identification: 0xd7d9 (55257)
+    Flags: 0x40, Don't fragment
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    Fragment Offset: 0
+    Time to Live: 64
+    Protocol: TCP (6)
+    Header Checksum: 0x7c75 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 10.0.0.26
+    Destination Address: 159.65.58.222
+Transmission Control Protocol, Src Port: 47562, Dst Port: 80, Seq: 1, Ack: 1, Len: 572
+    Source Port: 47562
+    Destination Port: 80
+    [Stream index: 38]
+    [TCP Segment Len: 572]
+    Sequence Number: 1    (relative sequence number)
+    Sequence Number (raw): 2138054256
+    [Next Sequence Number: 573    (relative sequence number)]
+    Acknowledgment Number: 1    (relative ack number)
+    Acknowledgment number (raw): 4073611117
+    1000 .... = Header Length: 32 bytes (8)
+    Flags: 0x018 (PSH, ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Nonce: Not set
+        .... 0... .... = Congestion Window Reduced (CWR): Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 1... = Push: Set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+        [TCP Flags: ·······AP···]
+    Window: 502
+    [Calculated window size: 64256]
+    [Window size scaling factor: 128]
+    Checksum: 0x181a [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+        TCP Option - No-Operation (NOP)
+            Kind: No-Operation (1)
+        TCP Option - No-Operation (NOP)
+            Kind: No-Operation (1)
+        TCP Option - Timestamps: TSval 2383552103, TSecr 3979866718
+            Kind: Time Stamp Option (8)
+            Length: 10
+            Timestamp value: 2383552103
+            Timestamp echo reply: 3979866718
+    [SEQ/ACK analysis]
+        [iRTT: 0.016593446 seconds]
+        [Bytes in flight: 572]
+        [Bytes sent since last PSH flag: 572]
+    [Timestamps]
+        [Time since first frame in this TCP stream: 0.016724726 seconds]
+        [Time since previous frame in this TCP stream: 0.000131280 seconds]
+    TCP payload (572 bytes)
+Hypertext Transfer Protocol
+    POST /exed/login.php HTTP/1.1\r\n
+        [Expert Info (Chat/Sequence): POST /exed/login.php HTTP/1.1\r\n]
+            [POST /exed/login.php HTTP/1.1\r\n]
+            [Severity level: Chat]
+            [Group: Sequence]
+        Request Method: POST
+        Request URI: /exed/login.php
+        Request Version: HTTP/1.1
+    Host: www.desmouceaux.net\r\n
+    User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/111.0\r\n
+    Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8\r\n
+    Accept-Language: fr,fr-FR;q=0.8,en-US;q=0.5,en;q=0.3\r\n
+    Accept-Encoding: gzip, deflate\r\n
+    Content-Type: application/x-www-form-urlencoded\r\n
+    Content-Length: 28\r\n
+        [Content length: 28]
+    Origin: http://www.desmouceaux.net\r\n
+    Connection: keep-alive\r\n
+    Referer: http://www.desmouceaux.net/exed/login.php\r\n
+    Upgrade-Insecure-Requests: 1\r\n
+    \r\n
+    [Full request URI: http://www.desmouceaux.net/exed/login.php]
+    [HTTP request 1/1]
+    [Response in frame: 2227]
+    File Data: 28 bytes
+HTML Form URL Encoded: application/x-www-form-urlencoded
+    Form item: "login" = "COUCOU"
+        Key: login
+        Value: COUCOU
+    Form item: "password" = "Secret"
+        Key: password
+        Value: Secret
