@@ -1,0 +1,17 @@
+Commencing packet processing (pid=3268)
+Decoding Ethernet
+03/21-17:01:48.260468  [Drop] [**] [1:20000001:0] Someone's trying to ping Google... [**] [Priority: 0] {ICMP} 10.0.0.33 -> 8.8.8.8
+03/21-17:01:49.265582  [Drop] [**] [1:20000001:0] Someone's trying to ping Google... [**] [Priority: 0] {ICMP} 10.0.0.33 -> 8.8.8.8
+03/21-17:01:59.795153  [Drop] [**] [1:20000001:0] Someone's trying to ping Google... [**] [Priority: 0] {ICMP} 10.0.0.34 -> 8.8.8.8
+03/21-17:02:00.798303  [Drop] [**] [1:20000001:0] Someone's trying to ping Google... [**] [Priority: 0] {ICMP} 10.0.0.34 -> 8.8.8.8
+03/21-17:02:01.799963  [Drop] [**] [1:20000001:0] Someone's trying to ping Google... [**] [Priority: 0] {ICMP} 10.0.0.34 -> 8.8.8.8
+...
+03/21-17:06:57.274939  [Drop] [**] [1:20000002:0] Scapy-created DNS packet... [**] [Priority: 0] {UDP} 10.0.0.33:53 -> 8.8.8.8:53
+03/21-17:06:57.312230  [Drop] [**] [1:20000001:0] Someone's trying to ping Google... [**] [Priority: 0] {ICMP} 10.0.0.33 -> 8.8.8.8
+...
+03/21-17:11:39.150914  [Drop] [**] [1:20000004:0] SYN flood detected!!! [**] [Priority: 0] {TCP}  10.0.0.34:51847 -> 159.65.58.222:80
+03/21-17:11:47.989975  [Drop] [**] [1:20000004:0] SYN flood detected!!! [**] [Priority: 0] {TCP}  10.0.0.34:24856 -> 159.65.58.222:80
+03/21-17:12:04.272665  [Drop] [**] [1:20000004:0] SYN flood detected!!! [**] [Priority: 0] {TCP}  10.0.0.34:58131 -> 159.65.58.222:80
+03/21-17:12:16.846455  [Drop] [**] [1:20000004:0] SYN flood detected!!! [**] [Priority: 0] {TCP}  10.0.0.34:35877 -> 159.65.58.222:80
+
+
